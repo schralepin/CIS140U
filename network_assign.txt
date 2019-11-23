@@ -1,0 +1,43 @@
+1. What is a network?
+A network is a collection of computing devices (computers, routers, etc.) linked together to allow for the transferring of data between them.
+2. What is a model?
+A model in refrence to networking in my mind refrences the OSI model. 
+The OSI networking model has 7 layers that are divided into two main groups all working 
+together. The layers 5,6, and 7 define how applications within end stations will 
+communicate with each other and with the user. Layers 1-4 define how that data is transferred.
+
+· Application Layer (Layer 7)
+· Presentation Layer (Layer 6)
+· Session Layer (Layer 5)
+· Transport Layer (Layer 4)
+· Network Layer (Layer 3)
+· Data Link Layer (Layer 2)
+· Physical Layer (Layer 1)
+3. List one protocol for each of the 4 layers of the TCP/IP model (Application, Transport, Internet and Link layers). Give a brief (one or two sentence) explain of what it is.
+Application layer: Domain Name Sysyem (DNS) a naming system for computers services and resources connected to the internet or a private network.
+Transportation Layer: Transmission Control Protocol (TCP) the main protocol of  the internet protocol suite that defines how to establish and maintain a network conversation for apps to exchange data.
+Internet Layer: IPv6 is a network layer protocol which allows communication and data transfers to take place over the network. 
+Link Layer: 802.11 is part of the IEEE 802 set of LAN protocols, and specifies the set of media access control and physical layer protocols for implementing wireless local area network Wi-Fi computer communication in various frequencies, including but not limited to 2.4, 5, and 60 GHz frequency bands. 
+4. What is NAT? What purposes is NAT used for?
+Network Address Transmission enables private IP networks that use unregistered IP addresses to connect to the Internet. NAT operates on a router, usually connecting two networks together, and translates the private (not globally unique) addresses in the internal network into legal addresses, before packets are forwarded to another network. This is needed as IP addresses are all used for IPv4 using a router as a distribution point allows for a much larger number of addresses to be generated off of one actual address. NAT will be fazed out as all addresses eventually change over to IPv6. 
+5. What is the difference between an internal address and an external address?
+6. Given the URL:
+     http://main.company.com/reports/view.html 
+What is the protocol? http
+What is the host name? main
+What is the domain name? company
+7. As far as IP Addresses are concern, what is the difference between IPv4 and IPv6 IP addresses? Why is IPv6 needed?
+One of the big differences between IPv4 and IPv6 would be the volume of addresses with 2^32 = 4,294,967,296 and as far as I know those addresses have all bee consumed at this point. IPv6 is 2^128 or 340,282,366,920,938,463,463,374,607,431,768,211,456 addresses that I hope accounts for all the ip addresses needed in my lifetime. 
+
+Along with the number of addresses other improvements included for IPv6 are:
+
+Auto-configuration
+No more need for NAT (Network Address Translation)
+
+No more private address collisions
+Better multicast routing
+Simpler header format
+Efficient routing
+Built-in authentication and privacy support
+Flexible options and extensions
+Easier administration

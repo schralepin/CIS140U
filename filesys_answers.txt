@@ -1,0 +1,27 @@
+Part I, answer these questions in a text file. Using vim here would be good practice for you.
+
+    a) What is the name given to the topmost directory in the Linux filesystem?
+root
+
+    b) How do you make this directory the current working directory?
+cd / will navigate to the root
+The following cd commands are being performed when the current working directory 
+is: /home/students/max/homeworks/lab1. Also, the user's login name is max and this is also his home directory.
+ What is the full pathname of the current working directory after each cd has been performed:
+    a) cd ~
+/home/students/max
+    b) cd .
+/home/students/max
+    c) cd ..
+/home/student
+NOTE: Assume that the current working directory is always /home/students/max/homeworks/lab1 for each problem separately.
+What command will delete a directory with files in it?
+rm -rf directory will delete a directory with files in it.
+a) What is an inode?
+An inode is a number that represents a data structure with information about a physical file on the disk.
+b) How do you display the inode of a file?
+ls -1 can get the inode number of a file. The list version with better information cmd would be ls -li
+
+
+what command lists all the information about a file's ACL permissions?
+getfacl with the file name.  

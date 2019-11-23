@@ -1,0 +1,30 @@
+In the poems.txt file. 
+What keys do you type to:
+To go to line 53.
+:53 or 53G
+
+Move to the 7th character from the beginning of the line.
+in command mode type 7l to goto the 7th character.
+
+Replace the word under the cursor with the word 'blinky'.
+:%s/twinkle/blinky/gc
+
+Move 2 lines down from where the cursor is.
+Typed jj to move down to line 55, could have used :55 also
+
+Delete the line under the cursor.
+typed dd to delete line 55 Along the margin of a bay:
+
+Find the first instance from the beginning of the file of the substring 'Fire and Ice'
+/Fire and Ice brings us to line 28
+Move the entire 'Fire and Ice' poem to the bottom of the file. NOTE: This will take quite a few commands. Just describe what you are doing basically.
+On line 28 type V then use j to select the poems lines ending on line 41. hit d to cut the 14 lines. I typed 120G to move to the bottom of the file and typed p to paste the Fire and Ice poem 
+
+Find and replace all occurrences of the substring 'it' or 'It' to 'THEM' in the entire work buffer.
+:%s/it/THEM/g and :%s/It/THEM/g pattern was not found on the second command. 
+
+Undo the previous step.
+typed u to undo the THEMs
+
+Write out the file and quit vim.
+I used ZZ to write save and exit. 

@@ -1,0 +1,10 @@
+C++ Devel Lab
+
+1. mkdir cpplab
+2. cp main.cpp main.h timing.o cpplab
+3. g++ -std=c++11 -g timing.o main.cpp main.h -o maintime
+4. ./maintime
+5. cd ~
+6. exit
+7. cp typescript cpplab
+8. tar -czvf cpplab.tar cpplab

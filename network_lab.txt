@@ -1,0 +1,231 @@
+Script started on Thu 07 Nov 2019 09:20:38 AM PST
+aaron.brock1@syccuxas01:~> ping syccuxfs01.pcc.edy[Ku -c6
+PING syccuxfs01.pcc.edu (192.168.134.25) 56(84) bytes of data.
+64 bytes from syccuxfs01.pcc.edu (192.168.134.25): icmp_seq=1 ttl=64 time=0.299 ms
+64 bytes from syccuxfs01.pcc.edu (192.168.134.25): icmp_seq=2 ttl=64 time=0.328 ms
+64 bytes from syccuxfs01.pcc.edu (192.168.134.25): icmp_seq=3 ttl=64 time=0.312 ms
+64 bytes from syccuxfs01.pcc.edu (192.168.134.25): icmp_seq=4 ttl=64 time=0.295 ms
+64 bytes from syccuxfs01.pcc.edu (192.168.134.25): icmp_seq=5 ttl=64 time=0.294 ms
+64 bytes from syccuxfs01.pcc.edu (192.168.134.25): icmp_seq=6 ttl=64 time=0.322 ms
+
+--- syccuxfs01.pcc.edu ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5001ms
+rtt min/avg/max/mdev = 0.294/0.308/0.328/0.019 ms
+aaron.brock1@syccuxas01:~> netstat -l | wc -l
+111
+aaron.brock1@syccuxas01:~> netstat -l | wc -l[K[K[K[K[K[K[K[K[Ks -p tcp | grep "connections established"
+    48 [01;31m[Kconnections established[m[K
+aaron.brock1@syccuxas01:~> netstat -nlpt
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name   
+tcp        0      0 127.0.0.1:199           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:45864         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:48651           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:3310          0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:49558         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:45847         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:49565         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 :::8081                 :::*                    LISTEN      -                   
+tcp        0      0 :::22                   :::*                    LISTEN      -                   
+tcp        0      0 :::33056                :::*                    LISTEN      -                   
+aaron.brock1@syccuxas01:~> hostname -i
+192.168.134.16
+aaron.brock1@syccuxas01:~> hostname -i[Kf
+syccuxas01.pcc.edu
+aaron.brock1@syccuxas01:~> mailx aaron.brock1
+Subject: ahoy there!
+Oh the things we shall see as we travle the sea. O I  ^[[D^[[D^[[D                       le  el the sea. bork bork.
+EOT
+aaron.brock1@syccuxas01:~> mailx
+Heirloom mailx version 12.5 7/5/10.  Type ? for help.
+"/var/mail/aaron.brock1": 1 message 1 new
+>N  1 aaron.brock1@syccu Thu Nov  7 09:24   18/692   ahoy there!
+? 1
+Message  1:
+From aaron.brock1@syccuxas01.pcc.edu  Thu Nov  7 09:24:07 2019
+X-Original-To: aaron.brock1
+Delivered-To: aaron.brock1@syccuxas01.pcc.edu
+Date: Thu, 07 Nov 2019 09:24:07 -0800
+To: aaron.brock1@syccuxas01.pcc.edu
+Subject: ahoy there!
+User-Agent: Heirloom mailx 12.5 7/5/10
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+From: aaron.brock1@syccuxas01.pcc.edu (Brock)
+
+Oh the things we shall see as we travel the sea. bork bork.
+
+? s 1
+"1" [New file] 20/713
+? echo "Here it be.  " | mailx -s "Email of dat Email is    ^[[D              Email  " -a 1 aaron.brock1
+Syntax error in "|"
+Here it be. mailx -s Email of Email -a 1 aaron.brock1
+? ^[[A    q
+aaron.brock1@syccuxas01:~> mailx
+No mail for aaron.brock1
+aaron.brock1@syccuxas01:~> mailx aaron.brock1[7Phostname -fmailx aaron.brock1[K[K^C
+aaron.brock1@syccuxas01:~> echo "Here it be." | mailx -s "Email of Email" -a 1 aaron .brock1
+aaron.brock1@syccuxas01:~> echo "Here it be." | mailx -s "Email of Email" -a 1 aaron..brock1
+aaron.brock1@syccuxas01:~> mailx
+Heirloom mailx version 12.5 7/5/10.  Type ? for help.
+"/var/mail/aaron.brock1": 2 messages 2 new
+>N  1 aaron.brock1@syccu Thu Nov  7 09:27   54/1842  Email of Email
+ N  2 aaron.brock1@syccu Thu Nov  7 09:27   54/1842  Email of Email
+? 1
+[?1049h[?1h=Message  1:[m
+From aaron.brock1@syccuxas01.pcc.edu  Thu Nov  7 09:27:23 2019[m
+X-Original-To: aaron.brock1[m
+Delivered-To: aaron.brock1@syccuxas01.pcc.edu[m
+Date: Thu, 07 Nov 2019 09:27:23 -0800[m
+To: aaron.brock1@syccuxas01.pcc.edu[m
+Subject: Email of Email[m
+User-Agent: Heirloom mailx 12.5 7/5/10[m
+MIME-Version: 1.0[m
+Content-Type: multipart/mixed;[m
+ boundary="=_5dc453fb.wCJ30qg0WWiiAakAZClEPfMBuN0LqHMpX5CGEoGU3gO7U8a6"[m
+From: aaron.brock1@syccuxas01.pcc.edu (Brock)[m
+[m
+Part 1:[m
+Content-Type: text/plain; charset=us-ascii[m
+Content-Transfer-Encoding: 7bit[m
+Content-Disposition: inline[m
+[m
+Here it be.[m
+[m
+Part 2:[m
+Content-Type: text/plain;[m
+ charset=us-ascii[m
+[7mlines 1-23[27m[K[K [KESCESC[KOO[KBB[KContent-Transfer-Encoding: 7bit[m
+[7mlines 2-24[27m[K[K [KESCESC[KOO[KBB[KContent-Disposition: attachment;[m
+[7mlines 3-25[27m[K[K [KESCESC[KOO[KBB[K filename="1"[m
+[7mlines 4-26[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 5-27[27m[K[K [KESCESC[KOO[KBB[KFrom aaron.brock1@syccuxas01.pcc.edu  Thu Nov  7 09:24:07 2019[m
+[7mlines 6-28[27m[K[K [KESCESC[KOO[KBB[KReturn-Path: <aaron.brock1@syccuxas01.pcc.edu>[m
+[7mlines 7-29[27m[K[K [KESCESC[KOO[KBB[KX-Original-To: aaron.brock1[m
+[7mlines 8-30[27m[K[K [KESCESC[KOO[KBB[KDelivered-To: aaron.brock1@syccuxas01.pcc.edu[m
+[7mlines 9-31[27m[K[K [KESCESC[KOO[KBB[KReceived: by syccuxas01.pcc.edu (Postfix, from userid 9081)[m
+[7mlines 10-32[27m[K[K [KESCESC[KOO[KBB[K        id B417C6419E; Thu,  7 Nov 2019 09:24:07 -0800 (PST)[m
+[7mlines 11-33[27m[K[K [KESCESC[KOO[KBB[KDate: Thu, 07 Nov 2019 09:24:07 -0800[m
+[7mlines 12-34[27m[K[K [KESCESC[KOO[KBB[KTo: aaron.brock1@syccuxas01.pcc.edu[m
+[7mlines 13-35[27m[K[K [KESCESC[KOO[KBB[KSubject: ahoy there![m
+[7mlines 14-36[27m[K[K [KESCESC[KOO[KBB[KUser-Agent: Heirloom mailx 12.5 7/5/10[m
+[7mlines 15-37[27m[K[K [KESCESC[KOO[KBB[KMIME-Version: 1.0[m
+[7mlines 16-38[27m[K[K [KESCESC[KOO[KBB[KContent-Type: text/plain; charset=us-ascii[m
+[7mlines 17-39[27m[K[K [KESCESC[KOO[KBB[KContent-Transfer-Encoding: 7bit[m
+[7mlines 18-40[27m[K[K [KESCESC[KOO[KBB[KMessage-Id: <20191107172407.B417C6419E@syccuxas01.pcc.edu>[m
+[7mlines 19-41[27m[K[K [KESCESC[KOO[KBB[KFrom: aaron.brock1@syccuxas01.pcc.edu (Brock)[m
+[7mlines 20-42[27m[K[K [KESCESC[KOO[KBB[KStatus: R[m
+[7mlines 21-43[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 22-44[27m[K[K [KESCESC[KOO[KBB[KOh the things we shall see as we travel the sea. bork bork.[m
+[7mlines 23-45[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 24-46[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KAA[K[HM charset=us-ascii[m
+[24;1H[K[7mlines 23-45/46 100%[27m[K[K [KESCESC[KOO[KAA[K[HMContent-Type: text/plain;[m
+[24;1H[K[7mlines 22-44/46 96%[27m[K[K [KESCESC[KOO[KAA[K[HMPart 2:[m
+[24;1H[K[7mlines 21-43/46 96%[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7mlines 20-42/46 95%[27m[K[K [KESCESC[KOO[KAA[K[HMHere it be.[m
+[24;1H[K[7mlines 19-41/46 92%[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7mlines 18-40/46 87%[27m[K[K [KESCESC[KOO[KAA[K[HMContent-Disposition: inline[m
+[24;1H[K[7mlines 17-39/46 85%[27m[K[K [KESCESC[KOO[KAA[K[HMContent-Transfer-Encoding: 7bit[m
+[24;1H[K[7mlines 16-38/46 82%[27m[K[K [KESCESC[KOO[KAA[K[HMContent-Type: text/plain; charset=us-ascii[m
+[24;1H[K[7mlines 15-37/46 81%[27m[K[K [KESCESC[KOO[KAA[K[HMPart 1:[m
+[24;1H[K[7mlines 14-36/46 78%[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7mlines 13-35/46 77%[27m[K[K [KESCESC[KOO[KAA[K[HMFrom: aaron.brock1@syccuxas01.pcc.edu (Brock)[m
+[24;1H[K[7mlines 12-34/46 74%[27m[K[K [KESCESC[KOO[KAA[K[HM boundary="=_5dc453fb.wCJ30qg0WWiiAakAZClEPfMBuN0LqHMpX5CGEoGU3gO7U8a6"[m
+[24;1H[K[7mlines 11-33/46 71%[27m[K[K [KESCESC[KOO[KAA[K[HMContent-Type: multipart/mixed;[m
+[24;1H[K[7mlines 10-32/46 68%[27m[K[K [KESCESC[KOO[KAA[K[HMMIME-Version: 1.0[m
+[24;1H[K[7mlines 9-31/46 63%[27m[K[K [KESCESC[KOO[KAA[K[HMUser-Agent: Heirloom mailx 12.5 7/5/10[m
+[24;1H[K[7mlines 8-30/46 60%[27m[K[K [KESCESC[KOO[KAA[K[HMSubject: Email of Email[m
+[24;1H[K[7mlines 7-29/46 58%[27m[K[K [KESCESC[KOO[KAA[K[HMTo: aaron.brock1@syccuxas01.pcc.edu[m
+[24;1H[K[7mlines 6-28/46 55%[27m[K[K [KESCESC[KOO[KAA[K[HMDate: Thu, 07 Nov 2019 09:27:23 -0800[m
+[24;1H[K[7mlines 5-27/46 50%[27m[K[K [KESCESC[KOO[KAA[K[HMDelivered-To: aaron.brock1@syccuxas01.pcc.edu[m
+[24;1H[K[7mlines 4-26/46 50%[27m[K[K [KESCESC[KOO[KAA[K[HMX-Original-To: aaron.brock1[m
+[24;1H[K[7mlines 3-25/46 49%[27m[K[K [KESCESC[KOO[KAA[K[HMFrom aaron.brock1@syccuxas01.pcc.edu  Thu Nov  7 09:27:23 2019[m
+[24;1H[K[7mlines 2-24/46 47%[27m[K[K [KESCESC[KOO[KAA[K[HMMessage  1:[m
+[24;1H[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KBB[KContent-Transfer-Encoding: 7bit[m
+[7mlines 2-24/46 47%[27m[K[K [KESCESC[KOO[KBB[KContent-Disposition: attachment;[m
+[7mlines 3-25/46 49%[27m[K[K [KESCESC[KOO[KBB[K filename="1"[m
+[7mlines 4-26/46 50%[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 5-27/46 50%[27m[K[K [KESCESC[KOO[KBB[KFrom aaron.brock1@syccuxas01.pcc.edu  Thu Nov  7 09:24:07 2019[m
+[7mlines 6-28/46 55%[27m[K[K [KESCESC[KOO[KBB[KReturn-Path: <aaron.brock1@syccuxas01.pcc.edu>[m
+[7mlines 7-29/46 58%[27m[K[K [KESCESC[KOO[KBB[KX-Original-To: aaron.brock1[m
+[7mlines 8-30/46 60%[27m[K[K [KESCESC[KOO[KBB[KDelivered-To: aaron.brock1@syccuxas01.pcc.edu[m
+[7mlines 9-31/46 63%[27m[K[K [KESCESC[KOO[KBB[KReceived: by syccuxas01.pcc.edu (Postfix, from userid 9081)[m
+[7mlines 10-32/46 68%[27m[K[K [KESCESC[KOO[KBB[K        id B417C6419E; Thu,  7 Nov 2019 09:24:07 -0800 (PST)[m
+[7mlines 11-33/46 71%[27m[K[K [KESCESC[KOO[KBB[KDate: Thu, 07 Nov 2019 09:24:07 -0800[m
+[7mlines 12-34/46 74%[27m[K[K [KESCESC[KOO[KBB[KTo: aaron.brock1@syccuxas01.pcc.edu[m
+[7mlines 13-35/46 77%[27m[K[K [KESCESC[KOO[KBB[KSubject: ahoy there![m
+[7mlines 14-36/46 78%[27m[K[K [KESCESC[KOO[KBB[KUser-Agent: Heirloom mailx 12.5 7/5/10[m
+[7mlines 15-37/46 81%[27m[K[K [KESCESC[KOO[KBB[KMIME-Version: 1.0[m
+[7mlines 16-38/46 82%[27m[K[K [KESCESC[KOO[KBB[KContent-Type: text/plain; charset=us-ascii[m
+[7mlines 17-39/46 85%[27m[K[K [KESCESC[KOO[KBB[KContent-Transfer-Encoding: 7bit[m
+[7mlines 18-40/46 87%[27m[K[K [KESCESC[KOO[KBB[KMessage-Id: <20191107172407.B417C6419E@syccuxas01.pcc.edu>[m
+[7mlines 19-41/46 92%[27m[K[K [KESCESC[KOO[KBB[KFrom: aaron.brock1@syccuxas01.pcc.edu (Brock)[m
+[7mlines 20-42/46 95%[27m[K[K [KESCESC[KOO[KBB[KStatus: R[m
+[7mlines 21-43/46 96%[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 22-44/46 96%[27m[K[K [KESCESC[KOO[KBB[KOh the things we shall see as we travel the sea. bork bork.[m
+[7mlines 23-45/46 100%[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KAA[K[HM charset=us-ascii[m
+[24;1H[K[7mlines 23-45/46 100%[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KAA[K[HM charset=us-ascii[m
+[24;1H[K[7mlines 23-45/46 100%[27m[K[K [KESCESC[KOO[KAA[K[HMContent-Type: text/plain;[m
+[24;1H[K[7mlines 22-44/46 96%[27m[K[K [KESCESC[KOO[KAA[K[HMPart 2:[m
+[24;1H[K[7mlines 21-43/46 96%[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7mlines 20-42/46 95%[27m[K[K [KESCESC[KOO[KAA[K[HMHere it be.[m
+[24;1H[K[7mlines 19-41/46 92%[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7mlines 18-40/46 87%[27m[K[K [KESCESC[KOO[KAA[K[HMContent-Disposition: inline[m
+[24;1H[K[7mlines 17-39/46 85%[27m[K[K [KESCESC[KOO[KAA[K[HMContent-Transfer-Encoding: 7bit[m
+[24;1H[K[7mlines 16-38/46 82%[27m[K[K [KESCESC[KOO[KAA[K[HMContent-Type: text/plain; charset=us-ascii[m
+[24;1H[K[7mlines 15-37/46 81%[27m[K[K [KESCESC[KOO[KAA[K[HMPart 1:[m
+[24;1H[K[7mlines 14-36/46 78%[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7mlines 13-35/46 77%[27m[K[K [KESCESC[KOO[KAA[K[HMFrom: aaron.brock1@syccuxas01.pcc.edu (Brock)[m
+[24;1H[K[7mlines 12-34/46 74%[27m[K[K [KESCESC[KOO[KAA[K[HM boundary="=_5dc453fb.wCJ30qg0WWiiAakAZClEPfMBuN0LqHMpX5CGEoGU3gO7U8a6"[m
+[24;1H[K[7mlines 11-33/46 71%[27m[K[K [KESCESC[KOO[KAA[K[HMContent-Type: multipart/mixed;[m
+[24;1H[K[7mlines 10-32/46 68%[27m[K[K [KESCESC[KOO[KAA[K[HMMIME-Version: 1.0[m
+[24;1H[K[7mlines 9-31/46 63%[27m[K[K [KESCESC[KOO[KAA[K[HMUser-Agent: Heirloom mailx 12.5 7/5/10[m
+[24;1H[K[7mlines 8-30/46 60%[27m[K[K [KESCESC[KOO[KAA[K[HMSubject: Email of Email[m
+[24;1H[K[7mlines 7-29/46 58%[27m[K[K [KESCESC[KOO[KAA[K[HMTo: aaron.brock1@syccuxas01.pcc.edu[m
+[24;1H[K[7mlines 6-28/46 55%[27m[K[K [KESCESC[KOO[KAA[K[HMDate: Thu, 07 Nov 2019 09:27:23 -0800[m
+[24;1H[K[7mlines 5-27/46 50%[27m[K[K [KESCESC[KOO[KAA[K[HMDelivered-To: aaron.brock1@syccuxas01.pcc.edu[m
+[24;1H[K[7mlines 4-26/46 50%[27m[K[K [KESCESC[KOO[KAA[K[HMX-Original-To: aaron.brock1[m
+[24;1H[K[7mlines 3-25/46 49%[27m[K[K [KESCESC[KOO[KAA[K[HMFrom aaron.brock1@syccuxas01.pcc.edu  Thu Nov  7 09:27:23 2019[m
+[24;1H[K[7mlines 2-24/46 47%[27m[K[K [KESCESC[KOO[KAA[K[HMMessage  1:[m
+[24;1H[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-23/46 45%[27m[K[K [KESCESC[KOO[KBB[KContent-Transfer-Encoding: 7bit[m
+[7mlines 2-24/46 47%[27m[K[K [KESCESC[KOO[KBB[KContent-Disposition: attachment;[m
+[7mlines 3-25/46 49%[27m[K[K [KESCESC[KOO[KBB[K filename="1"[m
+[7mlines 4-26/46 50%[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 5-27/46 50%[27m[K[K [KESCESC[KOO[KBB[KFrom aaron.brock1@syccuxas01.pcc.edu  Thu Nov  7 09:24:07 2019[m
+[7mlines 6-28/46 55%[27m[K[K [KESCESC[KOO[KBB[KReturn-Path: <aaron.brock1@syccuxas01.pcc.edu>[m
+[7mlines 7-29/46 58%[27m[K[K [KESCESC[KOO[KBB[KX-Original-To: aaron.brock1[m
+[7mlines 8-30/46 60%[27m[K[K [KESCESC[KOO[KBB[KDelivered-To: aaron.brock1@syccuxas01.pcc.edu[m
+[7mlines 9-31/46 63%[27m[K[K [KESCESC[KOO[KBB[KReceived: by syccuxas01.pcc.edu (Postfix, from userid 9081)[m
+[7mlines 10-32/46 68%[27m[K[K [KESCESC[KOO[KBB[K        id B417C6419E; Thu,  7 Nov 2019 09:24:07 -0800 (PST)[m
+[7mlines 11-33/46 71%[27m[K[K [KESCESC[KOO[KBB[KDate: Thu, 07 Nov 2019 09:24:07 -0800[m
+[7mlines 12-34/46 74%[27m[K[K [KESCESC[KOO[KBB[KTo: aaron.brock1@syccuxas01.pcc.edu[m
+[7mlines 13-35/46 77%[27m[K[K [KESCESC[KOO[KBB[KSubject: ahoy there![m
+[7mlines 14-36/46 78%[27m[K[K [KESCESC[KOO[KBB[KUser-Agent: Heirloom mailx 12.5 7/5/10[m
+[7mlines 15-37/46 81%[27m[K[K [KESCESC[KOO[KBB[KMIME-Version: 1.0[m
+[7mlines 16-38/46 82%[27m[K[K [KESCESC[KOO[KBB[KContent-Type: text/plain; charset=us-ascii[m
+[7mlines 17-39/46 85%[27m[K[K [KESCESC[KOO[KBB[KContent-Transfer-Encoding: 7bit[m
+[7mlines 18-40/46 87%[27m[K[K [KESCESC[KOO[KBB[KMessage-Id: <20191107172407.B417C6419E@syccuxas01.pcc.edu>[m
+[7mlines 19-41/46 92%[27m[K[K [KESCESC[KOO[KBB[KFrom: aaron.brock1@syccuxas01.pcc.edu (Brock)[m
+[7mlines 20-42/46 95%[27m[K[K [KESCESC[KOO[KBB[KStatus: R[m
+[7mlines 21-43/46 96%[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 22-44/46 96%[27m[K[K [KESCESC[KOO[KBB[KOh the things we shall see as we travel the sea. bork bork.[m
+[7mlines 23-45/46 100%[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 24-46/46 (END)[27m[K[K[?1l>[?1049l? w 1 
+Enter filename for part 2 (text/plain): 1 3
+"1" [Appended] 1/12
+? q
+Saved 1 message in mbox
+Held 1 message in /var/mail/aaron.brock1
+You have mail in /var/mail/aaron.brock1
+aaron.brock1@syccuxas01:~> exit
+exit
+
+Script done on Thu 07 Nov 2019 09:29:07 AM PST

@@ -1,0 +1,38 @@
+Questions
+NOTE: I will be doing your given substitution commands with the file 
+astro.txt to see if they work correctly. Note that there may be several 
+ways to do some of these tasks with the substitution command. I will take
+ it if it is a valid substitution command that does exactly what the 
+question asks for.
+
+HINT: It might be useful to use the c flag to step through what the 
+substitute command is doing. Also, remember to use the key stroke u to 
+undo back to the original file.
+
+1.
+In lines 80 to 101, replace the words Jupiter, Saturn or Earth with a hash mark (#).
+:80,101s/\v(Jupiter)|(Saturn)|(Earth)/#/g ,u
+
+2.
+In line 37, change everything that is not a vowel to a question mark (?).
+37G, :37s/\v[^aeiou]/?/gi , u
+
+3.
+Break all lines in the file into lines less than or equal to 41 characters.
+HINT: Try using a fixed quantifier. Also note that all lines in this file are 80 or
+ less so there shouldn't be a need to break them more than once.
+:%s/\v(.{41})/\1\r/g , u
+
+4.
+Now do the previous question but try to break lines where the spaces are instead of 
+in the middle of a word. The lines won't be exactly 41 characters but should be at 
+least 41 in size and only large enough to not split a word.
+HINT: Use back referencing to get the letters/numbers before a space and then after 
+a space.
+:%s/\v(.{41} )/\1\r/g ,u
+
+5.
+In all lines, remove the comma (,) inside all numbers. NOTE: All numbers with commas
+ have groups of 3 or less numbers surrounding them. There are no numbers with more
+ than one comma.
+:%s/\v([0-9]{1,})(,)/\1/g ,u

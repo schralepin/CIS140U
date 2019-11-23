@@ -1,0 +1,13 @@
+1. ping syccuxfs01.pcc.edu
+2. netstat -s -p tcp | grep "connections established"
+ netstat -l | wc -l
+3. netstat -nlpt
+
+4.hostname -i
+5.hostname -f
+Mailx q's
+6. mailx aaron.brock1 [subject] [message] ctrl+d to exit 
+7.mailx, 1 
+8.s 1
+9. echo "Here it is. " | mailx -s "Email of Email Attached" -a 1 aaron.brock1
+10.mailx, 1, w 1    

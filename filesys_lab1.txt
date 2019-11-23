@@ -1,0 +1,45 @@
+Script started on Mon 28 Oct 2019 06:50:32 PM PDT
+aaron.brock1@syccuxas01:~> mkdir fslab
+aaron.brock1@syccuxas01:~> cp test1.txt fslab
+aaron.brock1@syccuxas01:~> cd /home [K/student/aaron.brock1/fslab
+aaron.brock1@syccuxas01:~/fslab> mkdir testdir
+aaron.brock1@syccuxas01:~/fslab> ls -l
+total 8
+-rw------- 1 aaron.brock1 students   22 Oct 28 18:51 [0m[00mtest1.txt[0m
+drwx------ 2 aaron.brock1 students 4096 Oct 28 18:51 [01;34mtestdir[0m
+aaron.brock1@syccuxas01:~/fslab> -s[K[Kln -s test1.txt testlink
+aaron.brock1@syccuxas01:~/fslab> ls -l
+total 8
+-rw------- 1 aaron.brock1 students   22 Oct 28 18:51 [0m[00mtest1.txt[0m
+drwx------ 2 aaron.brock1 students 4096 Oct 28 18:51 [01;34mtestdir[0m
+lrwxrwxrwx 1 aaron.brock1 students    9 Oct 28 18:53 [00;36mtestlink[0m -> [00mtest1.txt[0m
+aaron.brock1@syccuxas01:~/fslab> cat test1.txt
+this is a test1.txt
+t
+aaron.brock1@syccuxas01:~/fslab> cat tews[K[K[Kestlink
+this is a test1.txt
+t
+aaron.brock1@syccuxas01:~/fslab> rm test1.txt
+aaron.brock1@syccuxas01:~/fslab> cat testlink
+cat: testlink: No such file or directory
+aaron.brock1@syccuxas01:~/fslab> ls -l
+total 4
+drwx------ 2 aaron.brock1 students 4096 Oct 28 18:51 [0m[01;34mtestdir[0m
+lrwxrwxrwx 1 aaron.brock1 students    9 Oct 28 18:53 [41;33;01mtestlink[0m -> [41;33;01mtest1.txt[0m
+aaron.brock1@syccuxas01:~/fslab> cd ~[K..
+aaron.brock1@syccuxas01:~> pwd
+/home/student/aaron.brock1
+aaron.brock1@syccuxas01:~> rm -rf fslab
+aaron.brock1@syccuxas01:~> ls
+[0m[00;31marchive.tar[0m                   [00mfsfile.sh[0m     [01;34mpublic_html[0m
+[00mastro.txt[0m                     [00mlimerick.txt[0m  [00mtest1.txt[0m
+[00ma very good limerick.txt[0m      [00;36mlinklink[0m      [00;32mtest2.txt[0m
+[00ma very good limerick.txt?ls?[0m  [00mmbox[0m          [00mtest3.txt[0m
+[01;34mbin[0m                           [00mpasswd.txt[0m    [01;34mtestdir[0m
+[00mfilesys_lab.txt[0m               [00mpoems.txt[0m     [00mtypescript[0m
+[00mfilesys_script.txt[0m            [00mpractice[0m      [00mutilities_assign.txt[0m
+[01;34mfsassign[0m                      [00;31mpractice.tar[0m  [00mutilities_lab.txt[0m
+aaron.brock1@syccuxas01:~> exit
+exit
+
+Script done on Mon 28 Oct 2019 06:55:16 PM PDT

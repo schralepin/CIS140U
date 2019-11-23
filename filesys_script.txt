@@ -1,0 +1,26 @@
+Script started on Sun 27 Oct 2019 04:51:22 PM PDT
+aaron.brock1@syccuxas01:~> mkkdie[K[K[K[Kdir fs [Kasssiger[K[K[K[K[King[K[Kgn
+aaron.brock1@syccuxas01:~> cp fsfile [K.sh fs [Kassign
+aaron.brock1@syccuxas01:~> cd /home [K/student [K/aaron.brock1/fsassign
+aaron.brock1@syccuxas01:~/fsassign> ls -l
+total 4
+-rw------- 1 aaron.brock1 students 21 Oct 27 16:52 [0m[00mfsfile.sh[0m
+aaron.brock1@syccuxas01:~/fsassign> chmod u-r fsfile.sh
+aaron.brock1@syccuxas01:~/fsassign> ls -l
+total 4
+--w------- 1 aaron.brock1 students 21 Oct 27 16:52 [0m[00mfsfile.sh[0m
+aaron.brock1@syccuxas01:~/fsassign> cat fsfile.sh
+cat: fsfile.sh: Permission denied
+aaron.brock1@syccuxas01:~/fsassign> chmod 744 fsfile.sh
+aaron.brock1@syccuxas01:~/fsassign> ls -l
+total 4
+-rwxr--r-- 1 aaron.brock1 students 21 Oct 27 16:52 [0m[00;32mfsfile.sh[0m
+aaron.brock1@syccuxas01:~/fsassign> ./fsfile.sh
+Hello There!
+aaron.brock1@syccuxas01:~/fsassign> yay!
+If 'yay!' is not a typo you can use command-not-found to lookup the package that contains it, like this:
+    cnf yay!
+aaron.brock1@syccuxas01:~/fsassign> exit
+exit
+
+Script done on Sun 27 Oct 2019 04:56:19 PM PDT

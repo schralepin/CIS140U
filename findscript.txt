@@ -1,0 +1,101 @@
+Script started on Wed 20 Nov 2019 11:20:55 AM PST
+aaron.brock1@syccuxas01:~> find . -mtime +1 -ls[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpwd
+/home/student/aaron.brock1
+aaron.brock1@syccuxas01:~> cd findassign
+aaron.brock1@syccuxas01:~/findassign> ls
+[0m[00manotherold[0m  [01;34mdirectoryA[0m  [00;32mfeedback.bin[0m    [00mnowrite.txt[0m   [00;32mrandcount.bin[0m  [00munder.txt[0m
+[00mantfarms[0m    [01;34mdirectoryB[0m  [00;36mlinktoantfarms[0m  [00;32mprinttodo.sh[0m  [00mthisisold[0m
+aaron.brock1@syccuxas01:~/findassign> touch testfile.txt
+aaron.brock1@syccuxas01:~/findassign> vim testfile.txt
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"testfile.txt" 0L, 0C[>c[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25lt[24;63H1,2[1;2H[?12l[?25h[?25lh[24;65H3[1;3H[?12l[?25h[?25li[24;65H4[1;4H[?12l[?25h[?25ls[24;65H5[1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25li[24;65H7[1;7H[?12l[?25h[?25ls[24;65H8[1;8H[?12l[?25h[?25l[24;65H9[1;9H[?12l[?25h[?25lt[24;65H10[1;10H[?12l[?25h[?25lx[24;66H1[1;11H[?12l[?25h[?25lt[24;66H2[1;12H[?12l[?25h[?25l[1;11H[K[24;66H1[1;11H[?12l[?25h[?25l[1;10H[K[24;66H0[1;10H[?12l[?25h[?25le[24;66H1[1;11H[?12l[?25h[?25lx[24;66H2[1;12H[?12l[?25h[?25lt[24;66H3[1;13H[?12l[?25h[?25l[24;66H4[1;14H[?12l[?25h[?25la[24;66H5[1;15H[?12l[?25h[?25ln[24;66H6[1;16H[?12l[?25h[?25ld[24;66H7[1;17H[?12l[?25h[?25l[24;66H8[1;18H[?12l[?25h[?25ly[24;66H9[1;19H[?12l[?25h[?25le[24;65H20[1;20H[?12l[?25h[?25ls[24;66H1[1;21H[?12l[?25h[?25l.[24;66H2[1;22H[?12l[?25h[?25l[24;66H3[1;23H[?12l[?25h[?25lT[24;66H4[1;24H[?12l[?25h[?25lh[24;66H5[1;25H[?12l[?25h[?25li[24;66H6[1;26H[?12l[?25h[?25ls[24;66H7[1;27H[?12l[?25h[?25l[24;66H8[1;28H[?12l[?25h[?25li[24;66H9[1;29H[?12l[?25h[?25ls[24;65H30[1;30H[?12l[?25h[?25l[24;66H1[1;31H[?12l[?25h[?25la[24;66H2[1;32H[?12l[?25h[?25l[24;66H3[1;33H[?12l[?25h[?25lr[24;66H4[1;34H[?12l[?25h[?25le[24;66H5[1;35H[?12l[?25h[?25lc[24;66H6[1;36H[?12l[?25h[?25le[24;66H7[1;37H[?12l[?25h[?25ln[24;66H8[1;38H[?12l[?25h[?25lt[24;66H9[1;39H[?12l[?25h[?25ll[24;65H40[1;40H[?12l[?25h[?25ly[24;66H1[1;41H[?12l[?25h[?25l[24;66H2[1;42H[?12l[?25h[?25lm[24;66H3[1;43H[?12l[?25h[?25lo[24;66H4[1;44H[?12l[?25h[?25ld[24;66H5[1;45H[?12l[?25h[?25li[24;66H6[1;46H[?12l[?25h[?25lf[24;66H7[1;47H[?12l[?25h[?25li[24;66H8[1;48H[?12l[?25h[?25le[24;66H9[1;49H[?12l[?25h[?25ld[24;65H50[1;50H[?12l[?25h[?25l[24;66H1[1;51H[?12l[?25h[?25lf[24;66H2[1;52H[?12l[?25h[?25li[24;66H3[1;53H[?12l[?25h[?25ll[24;66H4[1;54H[?12l[?25h[?25le[24;66H5[1;55H[?12l[?25h[?25l.[24;66H6[1;56H[?12l[?25h[?25l[24;66H7[1;57H[?12l[?25h[?25lo[24;66H8[1;58H[?12l[?25h[?25lk[24;66H9[1;59H[?12l[?25h[?25le[24;65H60[1;60H[?12l[?25h[?25lw[24;66H1[1;61H[?12l[?25h[?25ly[24;66H2[1;62H[?12l[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?12l[?25h[24;1H[K[2;1H[?25l[24;63H2,0-1[9CAll[2;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25h[?25l"testfile.txt" 2L, 63C written
+[?1l>[?12l[?25h[?1049laaron.brock1@syccuxas01:~/findassign> find . -mtime +1 -ls
+3021040    0 -rw-r--r--   1 aaron.brock1 students        0 Jan  1  2010 ./thisisold
+3021061    4 drwxr-xr-x   2 aaron.brock1 students     4096 Oct 15 14:57 ./directoryA
+3021062    0 -r--r--r--   1 aaron.brock1 students        0 Oct 15 14:57 ./directoryA/anothernowrite
+3021063    0 lrwxrwxrwx   1 aaron.brock1 students        8 Oct 15 14:20 ./directoryA/linktofile -> ontoitss
+3021065    4 -rw-rw-r--   1 aaron.brock1 students       16 Oct 15 13:57 ./directoryA/ontoitss
+3021067   12 -rwxrwxr-x   1 aaron.brock1 students     9408 Sep 15  2017 ./randcount.bin
+3021068    0 -rw-r--r--   1 aaron.brock1 students        0 Jan  1  2010 ./anotherold
+3021070   12 -rwxrwxr-x   1 aaron.brock1 students     9472 Sep 15  2017 ./feedback.bin
+3021071    4 -rw-rw-rw-   1 aaron.brock1 students       27 Oct 15 13:55 ./antfarms
+3021072    4 -rwxrwxr-x   1 aaron.brock1 students      325 Oct 14 11:26 ./printtodo.sh
+3021073    4 -rw-rw-rw-   1 aaron.brock1 students       55 Oct 15 14:40 ./under.txt
+3021074    0 lrwxrwxrwx   1 aaron.brock1 students        8 Oct 15 14:19 ./linktoantfarms -> antfarms
+3021075    4 drwxr-xr-x   4 aaron.brock1 students     4096 Oct 15 13:58 ./directoryB
+3021076    4 drwxrwxr-x   2 aaron.brock1 students     4096 Oct 15 13:56 ./directoryB/directoryBB
+3021077    0 -rw-rw-r--   1 aaron.brock1 students        0 Oct 15 13:51 ./directoryB/directoryBB/edirBB21
+3021078    0 -rw-rw-r--   1 aaron.brock1 students        0 Oct 15 13:51 ./directoryB/directoryBB/dirBB.txt
+3021079    4 drwxrwxr-x   2 aaron.brock1 students     4096 Oct 15 13:58 ./directoryB/directoryBA
+3021080    4 -rw-rw-r--   1 aaron.brock1 students       15 Oct 15 13:58 ./directoryB/directoryBA/dirBA1.txt
+3021081    4 -rw-rw-r--   1 aaron.brock1 students       15 Jan  1  2010 ./directoryB/dirB.txt
+3021082    0 -r--r--r--   1 aaron.brock1 students        0 Oct 15 14:56 ./nowrite.txt
+aaron.brock1@syccuxas01:~/findassign> find . -mtime +1 -ls=[K[K[K[K[K[K[K[K[K[K[K[K[Kname '[aeiou]???????' -print
+./directoryA/ontoitss
+./antfarms
+./directoryB/directoryBB/edirBB21
+aaron.brock1@syccuxas01:~/findassign> find. .[C -type l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+./directoryA/linktofile
+./linktoantfarms
+aaron.brock1@syccuxas01:~/findassign> find . -type l[K[K[K[K[K[Kmtime +365 -ec[Kxec mv [][K[K{} {}OLD \:[K;
+aaron.brock1@syccuxas01:~/findassign> ls
+[0m[00manotheroldOLD[0m  [01;34mdirectoryB[0m       [00mnowrite.txt[0m       [00mtestfile.txt[0m
+[00mantfarms[0m       [00;32mfeedback.binOLD[0m  [00;32mprinttodo.sh[0m      [00mthisisoldOLD[0m
+[01;34mdirectoryA[0m     [00;36mlinktoantfarms[0m   [00;32mrandcount.binOLD[0m  [00munder.txt[0m
+aaron.brock1@syccuxas01:~/findassign> ls -l
+total 48
+-rw-r--r-- 1 aaron.brock1 students    0 Jan  1  2010 [0m[00manotheroldOLD[0m
+-rw-rw-rw- 1 aaron.brock1 students   27 Oct 15 13:55 [00mantfarms[0m
+drwxr-xr-x 2 aaron.brock1 students 4096 Oct 15 14:57 [01;34mdirectoryA[0m
+drwxr-xr-x 4 aaron.brock1 students 4096 Nov 20 11:26 [01;34mdirectoryB[0m
+-rwxrwxr-x 1 aaron.brock1 students 9472 Sep 15  2017 [00;32mfeedback.binOLD[0m
+lrwxrwxrwx 1 aaron.brock1 students    8 Oct 15 14:19 [00;36mlinktoantfarms[0m -> [00mantfarms[0m
+-r--r--r-- 1 aaron.brock1 students    0 Oct 15 14:56 [00mnowrite.txt[0m
+-rwxrwxr-x 1 aaron.brock1 students  325 Oct 14 11:26 [00;32mprinttodo.sh[0m
+-rwxrwxr-x 1 aaron.brock1 students 9408 Sep 15  2017 [00;32mrandcount.binOLD[0m
+-rw------- 1 aaron.brock1 students   63 Nov 20 11:22 [00mtestfile.txt[0m
+-rw-r--r-- 1 aaron.brock1 students    0 Jan  1  2010 [00mthisisoldOLD[0m
+-rw-rw-rw- 1 aaron.brock1 students   55 Oct 15 14:40 [00munder.txt[0m
+aaron.brock1@syccuxas01:~/findassign> chmod 222 testfile.txt
+aaron.brock1@syccuxas01:~/findassign> ls -l
+total 48
+-rw-r--r-- 1 aaron.brock1 students    0 Jan  1  2010 [0m[00manotheroldOLD[0m
+-rw-rw-rw- 1 aaron.brock1 students   27 Oct 15 13:55 [00mantfarms[0m
+drwxr-xr-x 2 aaron.brock1 students 4096 Oct 15 14:57 [01;34mdirectoryA[0m
+drwxr-xr-x 4 aaron.brock1 students 4096 Nov 20 11:26 [01;34mdirectoryB[0m
+-rwxrwxr-x 1 aaron.brock1 students 9472 Sep 15  2017 [00;32mfeedback.binOLD[0m
+lrwxrwxrwx 1 aaron.brock1 students    8 Oct 15 14:19 [00;36mlinktoantfarms[0m -> [00mantfarms[0m
+-r--r--r-- 1 aaron.brock1 students    0 Oct 15 14:56 [00mnowrite.txt[0m
+-rwxrwxr-x 1 aaron.brock1 students  325 Oct 14 11:26 [00;32mprinttodo.sh[0m
+-rwxrwxr-x 1 aaron.brock1 students 9408 Sep 15  2017 [00;32mrandcount.binOLD[0m
+--w--w--w- 1 aaron.brock1 students   63 Nov 20 11:22 [00mtestfile.txt[0m
+-rw-r--r-- 1 aaron.brock1 students    0 Jan  1  2010 [00mthisisoldOLD[0m
+-rw-rw-rw- 1 aaron.brock1 students   55 Oct 15 14:40 [00munder.txt[0m
+aaron.brock1@syccuxas01:~/findassign> ls -lchmod 222 testfile.txtls -l[K[Kfind . -mtime +365 -exec mv {} {}OLD \;[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktype f -perm 222 -print
+./testfile.txt
+aaron.brock1@syccuxas01:~/findassign> chmod 777 testfile.txt
+aaron.brock1@syccuxas01:~/findassign> chmod 777 testfile.txtfind . -type f -perm 222 -print[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexecutable -type f -printf '%s %p\ n' \[K|sort -n -r | head
+9472 ./feedback.binOLD
+9408 ./randcount.binOLD
+325 ./printtodo.sh
+63 ./testfile.txt
+aaron.brock1@syccuxas01:~/findassign> find . -executable -type f -printf '%s %p\nn' |sort -n -r | head[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -printf '%s %p\n'[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -printf '%s %p\n' [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -printf '%s %p\n' |[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -printf '%s %p\n' |s[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -printf '%s %p\n' |so[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -printf '%s %p\n' |sor[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -printf '%s %p\n' |sort[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -printf '%s %p\n' |sort [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -printf '%s %p\n' |sort -[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -printf '%s %p\n' |sort -n[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp -type f -printf '%s %p\n' |sort -[1@n[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce -type f -printf '%s %p\n' |sort [1@-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr -type f -printf '%s %p\n' |sort[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm -type f -printf '%s %p\n' |sor[1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -printf '%s %p\n' |so[1@r[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7 -type f -printf '%s %p\n' |s[1@o[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7 -type f -printf '%s %p\n' |[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7 -type f -printf '%s %p\n' [1@|[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+63 ./testfile.txt
+aaron.brock1@syccuxas01:~/findassign> find . | ls -li | sort -rn 
+3022272 -rwxrwxrwx 1 aaron.brock1 students   63 Nov 20 11:22 testfile.txt
+3021082 -r--r--r-- 1 aaron.brock1 students    0 Oct 15 14:56 nowrite.txt
+3021075 drwxr-xr-x 4 aaron.brock1 students 4096 Nov 20 11:26 directoryB
+3021074 lrwxrwxrwx 1 aaron.brock1 students    8 Oct 15 14:19 linktoantfarms -> antfarms
+3021073 -rw-rw-rw- 1 aaron.brock1 students   55 Oct 15 14:40 under.txt
+3021072 -rwxrwxr-x 1 aaron.brock1 students  325 Oct 14 11:26 printtodo.sh
+3021071 -rw-rw-rw- 1 aaron.brock1 students   27 Oct 15 13:55 antfarms
+3021070 -rwxrwxr-x 1 aaron.brock1 students 9472 Sep 15  2017 feedback.binOLD
+3021068 -rw-r--r-- 1 aaron.brock1 students    0 Jan  1  2010 anotheroldOLD
+3021067 -rwxrwxr-x 1 aaron.brock1 students 9408 Sep 15  2017 randcount.binOLD
+3021061 drwxr-xr-x 2 aaron.brock1 students 4096 Oct 15 14:57 directoryA
+3021040 -rw-r--r-- 1 aaron.brock1 students    0 Jan  1  2010 thisisoldOLD
+total 48
+aaron.brock1@syccuxas01:~/findassign> exit
+exit
+
+Script done on Wed 20 Nov 2019 11:31:35 AM PST

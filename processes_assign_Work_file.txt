@@ -1,0 +1,18 @@
+mkdir process
+touch Bash.sh abbot.txt bear03 aBar323 .hid1 mart mat mint minty amet .ahead
+
+1. ls -a
+2. ls a* B*
+3. ls *[0-9] {2}
+4. ls m??t
+5. ls -ad
+6. printenv | sort | nl
+7. printenv | grep "jre" 
+8. ps maybe top command? *ps -o pid,time*
+9.vim .bashrc 
+i
+PATH=$PATH:/home/student/aaron.brock1:/home/student/aaron.brock1/process
+
+export PATH
+
+10. echo $PATH

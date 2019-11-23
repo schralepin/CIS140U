@@ -1,0 +1,285 @@
+This text is from:
+https://en.wikibooks.org/wiki/General_Astronomy
+===========================================
+General Astronomy
+
+Astronomy is the scientific study of celestial bodies in the visible universe,
+from the scale of a few meters to the macro     scale, including: the
+underlying physics governing those bodies, what they are made of, their
+properties, distribution, relation, distance, movement, creation, age and
+demise.
+
+Our understanding of the universe has dramatically improved due to the progress
+of technology. Astronomy has been one of the most modernized areas of
+scientific study, but it is also one of the oldest sciences — practiced by
+all ancient civilizations to some degree. Sadly, people have increasingly
+started to lose connection with the observable universe, something that was
+previously even required for measuring time, and defining seasons. Astronomy is
+among our species' first technological steps, but today only passingly remarked
+about when it verifies something thought about in theoretical physics. Even in
+a highly industrialized global civilization, defined by consumerism only a few
+of us had the chance to go beyond simple images and concepts and have a
+practical experience a practical experience in considering what is around our
+blue dot and its implications for us.
+
+This Wikibook introduces the reader to that tapestry and the process that
+revealed it to humanity. It presents astronomy not only as a field of
+knowledge, but also as a human endeavor in science.
+
+The Big Picture
+
+The universe is a big place — too big for us to comprehend. But how big?
+Astronomers have struggled with this question for millennia, and their view of
+the known universe has steadily grown to immense and incomprehensible sizes.
+It’s an important question, and a basic part of our grasp of the universe
+itself. To study astronomy, it’s essential to understand what’s out there,
+how everything relates, and where we fit in the universe. The problem is that
+the size scales, the relative general sizes of classes of objects, are too
+foreign for things much larger than Earth. In a big universe, this can be a
+challenge. To tackle the problem, let's try to connect the familiar life-size
+world around us with the unfamiliar cosmic size scales.
+Craie1.jpg
+
+If you're a student, you probably watch your instructor write on the chalkboard
+almost every day. The chalkboard is something you're much more familiar with
+than the whole universe because you can see it and touch it. You know the size
+of the board, the chalk, the markings, the eraser, and so on because they’re
+right at hand. How much bigger is the board than a dot made on the board with a
+piece of chalk? It turns out that the answer is about a thousand, for an
+average sized chalkboard, and a fair sized chalk dot.
+
+Now let's consider something that's a thousand times the size of a blackboard.
+A blackboard is a few meters across, so we want to think about something a few
+kilometers across. That's something like the size of a small city. If a city is
+1000 times larger than a chalkboard and a chalkboard is 1000 times larger than
+the mark on a chalkboard, that's a useful connection that helps us think about
+the size of a city: we can say that the chalkboard in the city is like the mark
+on the chalkboard.
+
+In this way we will now step out from the city into the larger universe. With
+each step, we will consider something (very roughly) a thousand times larger
+than the last step. As we move out, each stop in our journey will be much
+smaller than the next, like a mark on a chalkboard.
+
+A city is much larger than the blackboard we used as a reference point, but
+it's still something we are very familiar with. Many people drive across part
+of their home city and back again every day. It's possible to drive through
+most small cities in a half hour or so, even with stoplights, and it only takes
+a few hours to walk from one end to the other. As promised, the next step out
+will be much larger and farther from our everyday experience. Our next stop
+will have a size of several thousand kilometers, and that's the size of Earth.
+
+In a car, you can drive across a city in less than an hour, even at a slow
+speed. If you could drive around the Earth at a speed of 60 miles per hour (100
+kilometers per hour), going day and night over land and water, it would take a
+full 17 days. Remember, driving through a small city at 60 miles per hour would
+only take a few minutes. Seventeen days is much, much longer than a few
+minutes. The fastest jets, which have a top speed of about 2,000 miles (3,200
+km) per hour, can make the trip around the world much faster. At that speed,
+you could circle the Earth in 11 hours. Even speeds like that will quickly
+become inadequate as we continue moving out into the universe.
+
+The size of Earth is typical of the sizes of the rocky planets, the terrestrial
+planets, but planets made mostly of gas such as Jupiter and Saturn are larger
+by a factor of several to ten. In general, we can expect the same kinds of
+things to have similar properties. Given no other information about a planet,
+we might guess its radius to be the same as Earth's. If we knew that our
+imaginary planet were a much larger gas giant, we might change our estimate and
+guess that the planet has the same radius as say, Saturn.
+
+This size scale represents the vast majority of human experience. Only a small
+number of people have ever been in Earth orbit, and these people remained very
+close to Earth. Most of the satellites launched remain very close to Earth. The
+shuttle, for example, orbits at an altitude of only a few hundred kilometers
+— a few percent of the radius of Earth. Some spacecraft are sent to other
+planets or to the Moon, but the majority stay at the scale of this step in our
+journey. Only 24 people — the Apollo astronauts — have ever left Earth's
+orbit to visit the next stop on our journey.
+This illustration shows the Earth and the Moon scaled to their relative sizes
+and distances. The two are very small and far apart, and the Earth-Moon system
+is surrounded by a huge expanse of empty space. This view is only a small piece
+of the fifth step in our journey, and Earth is already becoming very tiny.
+
+As we continue to move out, we reach a size of about 1000 times the distance
+around the Earth. The distance to the Moon is about 30 times the diameter of
+Earth, so the Moon is easily within reach in this step, but there's little else
+in the remaining distance. The nearest planets, Mars and Venus, are out of our
+reach. Aside from the Earth and Moon, we find the space in the neighborhood of
+Earth to be almost completely empty, with only the occasional passage of an
+asteroid or comet.
+
+Although the Moon seems nearby when we consider the huge space surrounding the
+Earth-Moon system, we should remember that the Earth and Moon are really very
+far apart. If we could get in a car and drive to the Moon, the trip would take
+five months of driving nonstop — 24 hours a day and seven days a week. If our
+jet could go to the Moon, it would take five days to get there. These trips are
+becoming longer now, but they're still manageable. The trip by foot is much
+longer, though — a walk to the Moon would take nine years! Light travels
+faster than anything else in the universe. It has a speed of 300,000 kilometers
+(186,000 miles) per second. At this speed, light can travel to the Moon in just
+over one second. This distance, the distance light travels in one second, is
+called a light-second.
+This mosaic image of the Sun and six planets was taken by the Voyager
+spacecraft from beyond the planets. Earth is barely visible as a blue dot in
+one of the frames, almost lost in the glare from sunlight. The Voyager
+spacecraft, which view the orbits of the planets from outside, are the most
+distant man-made objects from Earth. Notice that the two terrestrial planets,
+Venus and Earth, are much nearer the Sun than the others.
+
+Another step out will extend our reach to most of the planets. We now encompass
+the bulk of the Solar System, the system comprising the Sun and all of the
+objects orbiting around it. This size scale is about five billion kilometers
+across, 30 times the distance between the Earth and the Sun. The distance from
+the Earth to the Sun is a convenient standard for measurement in the Solar
+System, so astronomers use the average Earth-Sun distance as a standard unit
+called the astronomical unit (AU). One astronomical unit is equal to about 93
+million miles or 150 million kilometers. We can say that we are now working at
+a size scale of 30 astronomical units, or 30 AU for short. A box this size
+centered on the Earth would comfortably fit Saturn's orbit, but Uranus, Neptune
+and Pluto are still too far away. For much of human history, none of the Solar
+System objects outside of this box were known to exist.
+
+Remember that our size scale has increased from the last step by a huge factor,
+a factor of 1000. Using our jet to take a trip from Earth to Saturn would take
+about fifty years. Light takes about 80 minutes to travel from Saturn to Earth,
+depending on where Earth and Saturn are in their orbits. Because it takes so
+long for light to make the trip from Saturn, the light we see from the planet
+at a given moment actually left 80 minutes ago. This means that we don't see
+Saturn as it is presently, but as it was 80 minutes ago. This also means that
+looking out into space is like looking back in time. The farther we look, the
+older the light. This is not very important for Saturn, but it will become more
+important as the size scale increases.
+
+As before, we can use the speed of light as a measure of distance. A
+light-second is the distance light travels in one second. Likewise, a
+light-minute is the distance light travels in one minute. That means that
+Saturn is 80 light-minutes away. In the same way, we could write that Saturn is
+1.3 light-hours away, and that's about the same as Saturn's distance from the
+Sun. Saturn's orbit is much bigger than Earth's orbit, which is only 8
+light-minutes in radius. This is a striking and important fact about the Solar
+System — the rocky planets, the terrestrial planets, orbit close to the Sun
+and close to each other, but the giant gas planets, the Jovian planets, orbit
+at greater distances and have more widely spaced orbits.
+
+The next step in our journey will encompass a distance of 30,000 AU, or half a
+light-year. Although this step completely encloses the planets, Solar System
+objects are found at much greater distances. These objects form the Oort cloud
+— a vast, sparse region of comets surrounding the Sun. The Oort cloud is
+almost empty, but it's there just the same. At this step we've only covered a
+piece of the range of influence of the Sun, and plenty of Oort cloud remains
+out of our reach. The Oort cloud is thought to extend out from the Sun as much
+as two light-years.
+
+If we look just beyond this step, we find the nearest star, Proxima Centauri,
+at about four light-years. It will take Voyager 1 and 2 80,000 years to reach
+this star. (These ships, launched in 1977, have a speed of 51,500 km/hour.) As
+other stars enter into the picture, the Sun will no longer be the dominant
+source of gravity. This means that we can expect the solar system to really end
+as we begin approaching other stars.
+
+Our next step out places us in a 500 light-year box. This size scale is easily
+large enough to fit the Sun, Alpha Centauri, and many other stars. In fact,
+about 250,000 stars are within 500 light-years of Earth. Astronomers refer to
+this region as the Solar Neighborhood. As we've seen, the stars in the Milky
+Way are very far apart, with vast stretches of mostly empty space separating
+them.
+
+Stars in the Solar Neighborhood (and throughout space) are mostly small and
+faint. If these fainter stars were much farther away, they would be too faint
+to see from Earth. Much brighter stars are more rare, but they can be seen from
+much farther away. Because of this, two "kinds" of stars fill the sky as viewed
+from Earth: stars that are intrinsically faint but nearby, and stars that are
+bright and more distant.
+This painting illustrates how the Milky Way might look if it could be viewed
+from outside. It has a bright central bar with four spiral arms coming out from
+the center. Individual stars are much too small and faint to see in this
+picture.
+
+As we continue outward in our journey, we see the random scattering of stars
+form into a pattern. Spiral structure emerges, and we see that the Earth, the
+Solar System, and nearby stars are collected together into an orderly system of
+stars called a galaxy. Our galaxy is called the Milky Way Galaxy.
+
+Like the Solar System, the Galaxy is shaped like a flat disk, but the Galaxy is
+much bigger. Our galaxy contains hundreds of billions of stars, and the Solar
+System is only one member contained inside. The Sun is located in the spiral
+arms of the galaxy about two thirds of the way from the center, and it orbits
+around the center of the galaxy with all the other stars. If the Milky Way were
+fifty miles long, the Solar System would only be a dot the size of the tip of a
+ball point pen. In actuality, the Galaxy is 100,000 light-years across, but
+only a few thousand light-years thick.
+
+As we start out towards the next step, we see other galaxies like the Milky Way
+begin to appear. Compared to stars in the Milky Way, galaxies are packed
+together much more closely, and collisions between galaxies are much more
+common. The Andromeda Galaxy, the nearest galaxy to the Milky Way, is 2.5
+million light-years away and on a collision course for Earth. Don't panic,
+though, as the collision won't happen for another 3 billion years.
+
+At a size scale not much larger than our last, we see that the galaxies are
+clumped together. These galaxy clusters typically have hundreds of galaxies and
+are millions of light years across. Galaxies orbit around the center of their
+clusters. The Milky Way is a member of the Virgo Cluster. It orbits near the
+edge of the Cluster, so we can see much of its center in a small region of the
+sky in the direction of the constellation Virgo. Presently, the Milky Way is
+moving away from the center of the Virgo Cluster. In the distant future,
+however, the Cluster's pull will slow the Milky Way and draw it inward.
+
+Although our reach now includes many more objects, the size scale of galaxy
+clusters still does not represent an expansion over the last size scale by a
+factor of 1000. We have not fully reached the next step in our journey until we
+come to the scale of hundreds of millions of light years. At this scale, even
+the galaxy clusters form clusters. These groups of galaxy clusters are called
+superclusters. A supercluster may contain hundreds of thousands of galaxies.
+The Virgo Cluster is a member of a supercluster called the Virgo Supercluster.
+
+Light from the edge of our 500 million light-year reach has traveled for 500
+million years before reaching us. This means that we see the Virgo Supercluster
+as it was 500 million years ago. Five hundred million years can be a long time,
+but it isn't really long enough for the universe to have changed significantly.
+Even though the light is old, the universe at the edge of the Virgo
+Supercluster still looks much like the universe nearby.
+This artist's conception shows a schematic of the Hubble volume as if you could
+look "down" on it from "above". In reality, this view is impossible because an
+observer will always see the Hubble sphere as if from the center, regardless of
+location in the universe. This happens because the edge of the Hubble sphere is
+made by light emitted from a great distance when the universe was very young.
+The Virgo Supercluster is the small dot at the center of the image, circled in
+blue.
+
+As we continue out from the 500 million light-year size scale, we see older and
+older parts of the universe. As the distance becomes very large, we begin
+seeing billions of years into the past, and big changes in the Universe as a
+whole become important. Going further and further back, we see the formation of
+the first galaxy clusters, galaxies, and stars. Eventually, we see the universe
+so young that no stars have formed yet. Before the first stars formed, the
+Universe was cool and dense enough for the loose, unused gas in space to block
+visible light. Beyond this, we can't see any further. The contents inside this
+wall are called the Hubble volume, or the Observable Universe. There's no way
+to observe objects outside of this volume because the light from these distant
+objects hasn't reached us yet.
+
+The Universe extends out infinitely, but our view is limited to the Hubble
+volume. Trying to visit the edge of the Hubble volume is impossible. You'll
+never reach it because it's only an illusion. If you tried to visit the
+location where we see the edge of the Hubble volume, you would see the universe
+around you as it is today, not billions of years ago, and you would see the
+edge of the Hubble volume all around you, billions of light years away.
+
+Extending out further inevitably delves into the pages of theory and crosses
+the line dividing what we have seen and what we cannot see. Some have theorised
+that the universe itself does not comprise all of existence, and that there may
+be other universes with different physical laws existing together in clusters
+and groups in a multiverse.
+
+As we go further and further out, many note that there must be an edge, an end,
+a border of reality. Others have speculated that the universe, or the
+multiverse it sits in, is simply infinite, and has no such boundaries. However,
+at this point in time, there can be no absolution, no definite answer to these
+questions.
+
+Much remains unknown about what the Universe is like, but our picture has
+evolved dramatically since humanity first began asking questions about the
+world around it. Armed with curiosity and the tools of science, astronomers
+have investigated the heavens for centuries, and their work continues today.
+

@@ -1,0 +1,48 @@
+find /home/student/aaron.brock1/findassign -cmin -1440
+
+possibly
+-find /home/student/aaron.brock1/findassign -mtime -1 -ls
+Test this tomorrow after 11 am. modify one file to check
+
+find . -mtime 0 -printf '%T+\t%s\t%p\n' 2>/dev/null | sort -r | more
+This will list files and directories that have been 
+modified in the last 24 hours (-mtime 0). It will list 
+them with the last modified time in a format that is both
+ sortable and human-readable (%T+), followed by the file 
+size (%s), followed by the full filename (%p), each 
+separated by tabs (\t).
+
+2>/dev/null throws away any stderr output, so that error 
+messages don't muddy the waters; sort -r sorts the results
+ by most recently modified first; and | more lists one
+ page of results at a time.
+
+1. find . -mtime +1 -ls
+
+2. find . -name '[aeiou]???????' -print
+
+3. find . -type l
+
+4. find . -mtime +365 -exec mv {} {}OLD \;
+
+Which command below will search for the files
+ that start with 'an' in the current directory and then 
+display the contents of the file?
+
+find . -name 'an*' -type f -exec cat {} \;
+
+5. find . -type f -perm 222 -print
+
+6. find . -executable -type f -printf '%s %p\n' |sort -n -r | head
+
+7. find . -perm 777 -type f -printf '%s %p\n' |sort -n -r | head
+
+
+8.To view a breakdown of inode usage for all directories 
+located in the current directory
+find . -printf "%h\n" | cut -d/ -f-2 | sort | uniq -c | sort -rn
+
+*find . | ls -li | sort -rn
+
+
+

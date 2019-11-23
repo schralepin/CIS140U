@@ -1,0 +1,10 @@
+1. chmod 700 randcount.bin, chmod 700 feedback.bin
+2. cat limerick.txt > redirect.txt
+3. cat redirect.txt
+4. ./feedback.bin < limerick.txt
+5. ./randcount.bin
+6. /randcount.bin&
+7. jobs
+8. fg job# [1]
+9. /randcount.bin&
+10. kill [1]

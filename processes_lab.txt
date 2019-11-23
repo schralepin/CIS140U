@@ -1,0 +1,46 @@
+Script started on Fri 01 Nov 2019 12:55:33 PM PDT
+aaron.brock1@syccuxas01:~> chmod 700 randv[Kcount.bin
+aaron.brock1@syccuxas01:~> chmod 700 randcount.bin[1P.bin[1P.bin[1P.bin[1P.bin[1P.bin[1P.bin[1P.bin[1P.bin[1P.binf.bine.bine.bind.binb.bina.binc.bink.bin
+aaron.brock1@syccuxas01:~> cat limerick.txt > redirect.txt
+aaron.brock1@syccuxas01:~> cat redirect.txt 
+A young intelligent turtle
+   Found programming UNIX a hurdle
+   The system, you see,
+   Ran as slow as did he,
+And that's not much said for a turtle.
+aaron.brock1@syccuxas01:~> .?[K/feedback.bin < limerick.txt 
+A young intelligent turtle
+   Found programming UNIX a hurdle
+   The system, you see,
+   Ran as slow as did he,
+And that's not much said for a turtle.
+
+
+aaron.brock1@syccuxas01:~> ..[K/randcount.bin 
+^[[A^[[B        count is 2018641101
+aaron.brock1@syccuxas01:~> ./randcount.bin [K&
+[1] 14293
+aaron.brock1@syccuxas01:~> jobs
+[1]+  Running                 ./randcount.bin &
+aaron.brock1@syccuxas01:~> fg 1
+./randcount.bin
+count is 2018632050
+aaron.brock1@syccuxas01:~> fg 1jobs./randcount.bin&
+[1] 14418
+aaron.brock1@syccuxas01:~> kill 1
+bash: kill: (1) - Operation not permitted
+aaron.brock1@syccuxas01:~> ps
+  PID TTY          TIME CMD
+13680 pts/26   00:00:00 bash
+14418 pts/26   00:00:18 randcount.bin
+14423 pts/26   00:00:00 ps
+aaron.brock1@syccuxas01:~> kill 14418
+aaron.brock1@syccuxas01:~> ps
+  PID TTY          TIME CMD
+13680 pts/26   00:00:00 bash
+14478 pts/26   00:00:00 ps
+[1]+  Terminated              ./randcount.bin
+aaron.brock1@syccuxas01:~> exit
+exit
+
+Script done on Fri 01 Nov 2019 01:00:46 PM PDT

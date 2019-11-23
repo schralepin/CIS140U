@@ -1,0 +1,118 @@
+Script started on Fri 25 Oct 2019 04:29:43 PM PDT
+aaron.brock1@syccuxas01:~> vim test1.txt
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"test1.txt" 0L, 0C[>c[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25ls[24;63H1,2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25lt[24;65H2[1;2H[?12l[?25h[?25lh[24;65H3[1;3H[?12l[?25h[?25li[24;65H4[1;4H[?12l[?25h[?25ls[24;65H5[1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25li[24;65H7[1;7H[?12l[?25h[?25ls[24;65H8[1;8H[?12l[?25h[?25l[24;65H9[1;9H[?12l[?25h[?25lt[24;65H10[1;10H[?12l[?25h[?25le[24;66H1[1;11H[?12l[?25h[?25ls[24;66H2[1;12H[?12l[?25h[?25lt[24;66H3[1;13H[?12l[?25h[?25l![24;66H4[1;14H[?12l[?25h[?25l[1;13H[K[24;66H3[1;13H[?12l[?25h[?25l1[24;66H4[1;14H[?12l[?25h[?25l.[24;66H5[1;15H[?12l[?25h[?25lt[24;66H6[1;16H[?12l[?25h[?25lx[24;66H7[1;17H[?12l[?25h[?25lt[24;66H8[1;18H[?12l[?25h[?25l.[24;66H9[1;19H[?12l[?25h[?25l[1;18H[K[24;66H8[1;18H[?12l[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?12l[?25h[?25l[24;65H2-9[2;9H[?12l[?25h[?25lq[24;65H3-10[2;10H[?12l[?25h[?25l[2;9H[K[24;65H2-9 [2;9H[?12l[?25h[24;1H[K[2;8H[?25l[24;63H2,1-8[9CAll[2;8H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25h[?25l[24;5H[K[24;5H[?12l[?25h[?25l[24;4H[K[24;4H[?12l[?25h[?25l[24;3H[K[24;3H[?12l[?25h[?25l[24;2H[K[24;2H[?12l[?25hz[?25l[?12l[?25hz[?25l[?12l[?25h[?25l[1m[37m[41mE492: Not an editor command: zz[m[31C2,1-8[9CAll[2;8H[?12l[?25h[?25l[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"test1.txt" 2L, 20C written
+[?1l>[?12l[?25h[?1049laaron.brock1@syccuxas01:~> cat test1.txt
+this is test1.txt
+	
+aaron.brock1@syccuxas01:~> pwd
+/home/student/aaron.brock1
+aaron.brock1@syccuxas01:~> mkdir fslab
+aaron.brock1@syccuxas01:~> ls
+[0m[00;31marchive.tar[0m                   [01;34mfslab[0m         [00mpractice[0m      [00mtypescript[0m
+[00mastro.txt[0m                     [00mlimerick.txt[0m  [00;31mpractice.tar[0m  [00mutilities_assign.txt[0m
+[00ma very good limerick.txt[0m      [00mmbox[0m          [01;34mpublic_html[0m   [00mutilities_lab.txt[0m
+[00ma very good limerick.txt?ls?[0m  [00mpasswd.txt[0m    [00mtest1.txt[0m
+[01;34mbin[0m                           [00mpoems.txt[0m     [00mtest2.txt[0m
+aaron.brock1@syccuxas01:~> cp test1.txt fslab
+aaron.brock1@syccuxas01:~> cp test1.txt fslabls[Kmkdir fslab[K[K[K[K[Ktestlink[K[K[K[Kdir
+aaron.brock1@syccuxas01:~> ls
+[0m[00;31marchive.tar[0m                   [01;34mfslab[0m         [00mpractice[0m      [01;34mtestdir[0m
+[00mastro.txt[0m                     [00mlimerick.txt[0m  [00;31mpractice.tar[0m  [00mtypescript[0m
+[00ma very good limerick.txt[0m      [00mmbox[0m          [01;34mpublic_html[0m   [00mutilities_assign.txt[0m
+[00ma very good limerick.txt?ls?[0m  [00mpasswd.txt[0m    [00mtest1.txt[0m     [00mutilities_lab.txt[0m
+[01;34mbin[0m                           [00mpoems.txt[0m     [00mtest2.txt[0m
+aaron.brock1@syccuxas01:~> ls -l
+total 180
+-rw------- 1 aaron.brock1 students 10240 Oct  2 07:57 [0m[00;31marchive.tar[0m
+-rw------- 1 aaron.brock1 students 18427 Oct 22 12:14 [00mastro.txt[0m
+-rw------- 1 aaron.brock1 students   151 Oct  3 11:23 [00ma very good limerick.txt[0m
+-rw------- 1 aaron.brock1 students   151 Oct  3 07:36 [00ma very good limerick.txt?ls?[0m
+drwxr-xr-x 2 aaron.brock1 students  4096 Sep 27  2013 [01;34mbin[0m
+drwx------ 2 aaron.brock1 students  4096 Oct 25 16:33 [01;34mfslab[0m
+-rw------- 1 aaron.brock1 students   151 Oct  3 08:05 [00mlimerick.txt[0m
+-rw------- 1 aaron.brock1 students  3425 Sep 28 15:50 [00mmbox[0m
+-rw------- 1 aaron.brock1 students 17058 Sep 28 14:31 [00mpasswd.txt[0m
+-rw------- 1 aaron.brock1 students  2998 Oct  8 19:36 [00mpoems.txt[0m
+-rw------- 1 aaron.brock1 students   161 Oct  8 16:46 [00mpractice[0m
+-rw------- 1 aaron.brock1 students 30720 Oct  3 11:26 [00;31mpractice.tar[0m
+drwxr-xr-x 2 aaron.brock1 students  4096 Nov  6  2013 [01;34mpublic_html[0m
+-rw------- 1 aaron.brock1 students    20 Oct 25 16:31 [00mtest1.txt[0m
+-rw------- 1 aaron.brock1 students     0 Oct  2 07:55 [00mtest2.txt[0m
+drwx------ 2 aaron.brock1 students  4096 Oct 25 16:33 [01;34mtestdir[0m
+-rw------- 1 aaron.brock1 students  4096 Oct 25 16:32 [00mtypescript[0m
+-rw------- 1 aaron.brock1 students 23277 Oct  2 08:08 [00mutilities_assign.txt[0m
+-rw------- 1 aaron.brock1 students 22050 Oct  3 11:30 [00mutilities_lab.txt[0m
+aaron.brock1@syccuxas01:~> ln -s test1.txt testlink
+aaron.brock1@syccuxas01:~> ls -l
+total 180
+-rw------- 1 aaron.brock1 students 10240 Oct  2 07:57 [0m[00;31marchive.tar[0m
+-rw------- 1 aaron.brock1 students 18427 Oct 22 12:14 [00mastro.txt[0m
+-rw------- 1 aaron.brock1 students   151 Oct  3 11:23 [00ma very good limerick.txt[0m
+-rw------- 1 aaron.brock1 students   151 Oct  3 07:36 [00ma very good limerick.txt?ls?[0m
+drwxr-xr-x 2 aaron.brock1 students  4096 Sep 27  2013 [01;34mbin[0m
+drwx------ 2 aaron.brock1 students  4096 Oct 25 16:33 [01;34mfslab[0m
+-rw------- 1 aaron.brock1 students   151 Oct  3 08:05 [00mlimerick.txt[0m
+-rw------- 1 aaron.brock1 students  3425 Sep 28 15:50 [00mmbox[0m
+-rw------- 1 aaron.brock1 students 17058 Sep 28 14:31 [00mpasswd.txt[0m
+-rw------- 1 aaron.brock1 students  2998 Oct  8 19:36 [00mpoems.txt[0m
+-rw------- 1 aaron.brock1 students   161 Oct  8 16:46 [00mpractice[0m
+-rw------- 1 aaron.brock1 students 30720 Oct  3 11:26 [00;31mpractice.tar[0m
+drwxr-xr-x 2 aaron.brock1 students  4096 Nov  6  2013 [01;34mpublic_html[0m
+-rw------- 1 aaron.brock1 students    20 Oct 25 16:31 [00mtest1.txt[0m
+-rw------- 1 aaron.brock1 students     0 Oct  2 07:55 [00mtest2.txt[0m
+drwx------ 2 aaron.brock1 students  4096 Oct 25 16:33 [01;34mtestdir[0m
+lrwxrwxrwx 1 aaron.brock1 students     9 Oct 25 16:37 [00;36mtestlink[0m -> [00mtest1.txt[0m
+-rw------- 1 aaron.brock1 students  4096 Oct 25 16:32 [00mtypescript[0m
+-rw------- 1 aaron.brock1 students 23277 Oct  2 08:08 [00mutilities_assign.txt[0m
+-rw------- 1 aaron.brock1 students 22050 Oct  3 11:30 [00mutilities_lab.txt[0m
+aaron.brock1@syccuxas01:~> cat y[Ktest1.txt
+this is test1.txt
+	
+aaron.brock1@syccuxas01:~> cat testlink
+this is test1.txt
+	
+aaron.brock1@syccuxas01:~> rm test [K2[K1.txt
+aaron.brock1@syccuxas01:~> cat testlink
+cat: testlink: No such file or directory
+aaron.brock1@syccuxas01:~> ls -l
+total 180
+-rw------- 1 aaron.brock1 students 10240 Oct  2 07:57 [0m[00;31marchive.tar[0m
+-rw------- 1 aaron.brock1 students 18427 Oct 22 12:14 [00mastro.txt[0m
+-rw------- 1 aaron.brock1 students   151 Oct  3 11:23 [00ma very good limerick.txt[0m
+-rw------- 1 aaron.brock1 students   151 Oct  3 07:36 [00ma very good limerick.txt?ls?[0m
+drwxr-xr-x 2 aaron.brock1 students  4096 Sep 27  2013 [01;34mbin[0m
+drwx------ 2 aaron.brock1 students  4096 Oct 25 16:33 [01;34mfslab[0m
+-rw------- 1 aaron.brock1 students   151 Oct  3 08:05 [00mlimerick.txt[0m
+-rw------- 1 aaron.brock1 students  3425 Sep 28 15:50 [00mmbox[0m
+-rw------- 1 aaron.brock1 students 17058 Sep 28 14:31 [00mpasswd.txt[0m
+-rw------- 1 aaron.brock1 students  2998 Oct  8 19:36 [00mpoems.txt[0m
+-rw------- 1 aaron.brock1 students   161 Oct  8 16:46 [00mpractice[0m
+-rw------- 1 aaron.brock1 students 30720 Oct  3 11:26 [00;31mpractice.tar[0m
+drwxr-xr-x 2 aaron.brock1 students  4096 Nov  6  2013 [01;34mpublic_html[0m
+-rw------- 1 aaron.brock1 students     0 Oct  2 07:55 [00mtest2.txt[0m
+drwx------ 2 aaron.brock1 students  4096 Oct 25 16:33 [01;34mtestdir[0m
+lrwxrwxrwx 1 aaron.brock1 students     9 Oct 25 16:37 [41;33;01mtestlink[0m -> [41;33;01mtest1.txt[0m
+-rw------- 1 aaron.brock1 students  8192 Oct 25 16:37 [00mtypescript[0m
+-rw------- 1 aaron.brock1 students 23277 Oct  2 08:08 [00mutilities_assign.txt[0m
+-rw------- 1 aaron.brock1 students 22050 Oct  3 11:30 [00mutilities_lab.txt[0m
+aaron.brock1@syccuxas01:~> ls -lcat testlinkrm test1.txtcat testlink1.txt[8Pls -ln -s test1.txt testlinks -l[K[Kmkdir testdircp test1.txt fslabls[Kmkdir fslabpwd[Kcat test1.txtpwd[K
+/home/student/aaron.brock1
+aaron.brock1@syccuxas01:~> cd/home/student/[K
+bash: cd/home/student: No such file or directory
+aaron.brock1@syccuxas01:~> ls
+[0m[00;31marchive.tar[0m                   [01;34mfslab[0m         [00mpractice[0m      [41;33;01mtestlink[0m
+[00mastro.txt[0m                     [00mlimerick.txt[0m  [00;31mpractice.tar[0m  [00mtypescript[0m
+[00ma very good limerick.txt[0m      [00mmbox[0m          [01;34mpublic_html[0m   [00mutilities_assign.txt[0m
+[00ma very good limerick.txt?ls?[0m  [00mpasswd.txt[0m    [00mtest2.txt[0m     [00mutilities_lab.txt[0m
+[01;34mbin[0m                           [00mpoems.txt[0m     [01;34mtestdir[0m
+aaron.brock1@syccuxas01:~> rm fslab
+rm: cannot remove ‘fslab’: Is a directory
+aaron.brock1@syccuxas01:~> rm fslab[Cd fslabi fslabr fslab[C fslab[1Pfslab[1P fslab[1P fslab[1P fslab[C fslab- fslabr fslabf fslab[C fslab[C
+aaron.brock1@syccuxas01:~> ls
+[0m[00;31marchive.tar[0m                   [00mlimerick.txt[0m  [00;31mpractice.tar[0m  [00mtypescript[0m
+[00mastro.txt[0m                     [00mmbox[0m          [01;34mpublic_html[0m   [00mutilities_assign.txt[0m
+[00ma very good limerick.txt[0m      [00mpasswd.txt[0m    [00mtest2.txt[0m     [00mutilities_lab.txt[0m
+[00ma very good limerick.txt?ls?[0m  [00mpoems.txt[0m     [01;34mtestdir[0m
+[01;34mbin[0m                           [00mpractice[0m      [41;33;01mtestlink[0m
+aaron.brock1@syccuxas01:~> ls[K[Kexit 
+Script done on Fri 25 Oct 2019 04:46:11 PM PDT

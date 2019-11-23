@@ -1,0 +1,45 @@
+Aaron Brock
+VimRegEx Lab
+In the astro.txt file.
+ 
+Using the substitution command only...
+
+1.Change the substring 'light' to 'lux'...
+ a.Just the first instance on the current line only.
+	146G, :s/light/lux, u
+ b.All instances on the current line 146 only.
+	:146s/light/lux/g, u
+ c.All instances throughout the file.
+	:%s/light/lux/g = 33 substitutions on 30 lines, u
+ d.All instances on lines 146 to 163.
+	:146,163s/light/lux/g = 11 subs on 8 lines, u
+ e.Just the first instance on each line starting from the current line to the end of the file.
+	:%s/^light/lux/g = 4 subs on 4 lines from line 154, u 
+
+NOTE: Don't use the c flag to limit the search results.
+ You don't have to match whole words. To test your commands, 
+ try them with the cursor at the beginning of line 146. 
+ this line has two 'light' substrings in it.
+
+2.On line 2 of the file, change all instances of a forward slash (/) to a hash mark (#).
+	2G, :2s!/!#!g = 4 subs on line 2, u
+3.Put an asterick (*) in front of all lines that begin with the letter 'a'.
+	:%s/^[Aa]/*a/g, u
+4.Find all vowels (a, e, i, o, u) and change them to the letter 'V'
+	:%s/[aeiou]/V/gi, u
+5.In all lines that do not have 2 or more vowels in a row, replace all 3 letter words with a bang sign (!).
+	:%s/\<[a-zA-Z]\{3}\>/!/g, u
+6.Make the entire text double-spaced. In other words, put an extra blank line after all lines.
+HINT: You can match just the end of the line with the anchor $. Then add a newline in the replacement part.
+	:%s/$/\r/g, u
+7.Replace all groups of 1, 2 or 3 digits with the letter 'N'.
+	:%s/\<[0-9]\{1,3}\>/N/g, u
+
+8.Move all occurrences of the word 'Sun' to the end of the line.
+HINT: Look at the back referencing example in the lecture. You can also filter out any lines where the Sun is at the end of the line already but this may not matter.
+
+
+Yay! Thank you for your help!!!   
+:%s/\v^(.*)(<Sun>)(.*)$/\1 \3 \2/gi
+
+

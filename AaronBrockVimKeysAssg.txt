@@ -1,0 +1,44 @@
+Astro.txt
+
+Move to line 200.
+:set number, :200 or 200G
+
+Move to the 6th word on this line.
+w w w w w w (moves to 6th word are)
+
+Delete this word and the next word.
+dw (removes are) dw (removes collected) 
+
+Go to the end of the file.
+G
+
+Delete the last 4 lines in the file.
+k k k k 4dd
+
+Indent lines 59 to 62.
+59G V j j j >
+
+Copy lines 72 to 80 to the end of the file.
+72G V j j j j j j j j y G xp
+
+Find the substring 'world' through out the text.
+gg /world n n n last n brings us back to line 40, found 3 worlds in doc
+
+Replace all instances of 'light' with 'lux' in lines 238 to 246.
+NOTE: Make this replace case insensitive.
+:238,246s/light/lux/gi y  
+Undo just the last command.
+u 
+Now use the c option to only replace the first two instances of 'light' with 'lux' (again only in lines 238 to 246).
+:238,246s/light/lux/gc y y
+Go to beginning of the file.
+gg
+
+Substitute throughout the entire file the substring 'the' for 'THE' but only for the first instance of 'the' on each line. Make the replacement case sensitive.
+NOTE: we are replacing a substring and so this will replace 'the' within words. We will talk about how to do whole word replacement in the next module.
+:%s/the/THE/g = 298 subs on 179 lines
+Go to line 43. Insert a line below this line and type the text: 'redo this text'.
+43G o 'redo this text' esc to leave insert mode
+
+quit vim but DON'T write out changes to the file.
+ZQ

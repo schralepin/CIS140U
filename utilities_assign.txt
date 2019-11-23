@@ -1,0 +1,294 @@
+Script started on Wed 02 Oct 2019 07:50:48 AM PDT
+aaron.brock1@syccuxas01:~> ls
+[0m[01;34mbin[0m  [00mlimerick.txt[0m  [00mmbox[0m  [00mpasswd.txt[0m  [01;34mpublic_html[0m  [00mtypescript[0m
+aaron.brock1@syccuxas01:~> cp -i typescript [Cutilities_assign.yxy[K[K[Ky[Ktxt
+aaron.brock1@syccuxas01:~> ls
+[0m[01;34mbin[0m           [00mmbox[0m        [01;34mpublic_html[0m  [00mutilities_assign.txt[0m
+[00mlimerick.txt[0m  [00mpasswd.txt[0m  [00mtypescript[0m
+aaron.brock1@syccuxas01:~> cp limerick.txt limerick.bak
+aaron.brock1@syccuxas01:~> ls
+[0m[01;34mbin[0m           [00mlimerick.txt[0m  [00mpasswd.txt[0m   [00mtypescript[0m
+[00mlimerick.bak[0m  [00mmbox[0m          [01;34mpublic_html[0m  [00mutilities_assign.txt[0m
+aaron.brock1@syccuxas01:~> cp -i limerick.bak limerick.txt
+cp: overwrite ‘limerick.txt’? no
+aaron.brock1@syccuxas01:~> ls
+[0m[01;34mbin[0m           [00mlimerick.txt[0m  [00mpasswd.txt[0m   [00mtypescript[0m
+[00mlimerick.bak[0m  [00mmbox[0m          [01;34mpublic_html[0m  [00mutilities_assign.txt[0m
+aaron.brock1@syccuxas01:~> rm limerick.bak
+aaron.brock1@syccuxas01:~> ls
+[0m[01;34mbin[0m           [00mmbox[0m        [01;34mpublic_html[0m  [00mutilities_assign.txt[0m
+[00mlimerick.txt[0m  [00mpasswd.txt[0m  [00mtypescript[0m
+aaron.brock1@syccuxas01:~> wc -l passwd.txt
+200 passwd.txt
+aaron.brock1@syccuxas01:~> ls /etc | wc -l
+326
+aaron.brock1@syccuxas01:~> touch test1.txt test2.txt
+aaron.brock1@syccuxas01:~> ls
+[0m[01;34mbin[0m           [00mmbox[0m        [01;34mpublic_html[0m  [00mtest2.txt[0m   [00mutilities_assign.txt[0m
+[00mlimerick.txt[0m  [00mpasswd.txt[0m  [00mtest1.txt[0m    [00mtypescript[0m
+aaron.brock1@syccuxas01:~> tar -cf archive.tar test.[K1.txt test2.txt
+aaron.brock1@syccuxas01:~> ls
+[0m[00;31marchive.tar[0m  [00mlimerick.txt[0m  [00mpasswd.txt[0m   [00mtest1.txt[0m  [00mtypescript[0m
+[01;34mbin[0m          [00mmbox[0m          [01;34mpublic_html[0m  [00mtest2.txt[0m  [00mutilities_assign.txt[0m
+aaron.brock1@syccuxas01:~> grep -v 'student' [1P[1P[1P[1P[1P[1P[1P[1@S[1@T[1@U[1@D[1@E[1@N[1@T[C[C p a s s w o [1P d . t x t 
+at:x:25:25:Batch jobs daemon:/var/spool/atjobs:/bin/bash
+avahi:x:491:491:User for Avahi:/var/run/avahi-daemon:/bin/false
+avahi-autoipd:x:499:499:User for Avahi IPv4LL:/var/lib/avahi-autoipd:/bin/false
+bin:x:1:1:bin:/bin:/bin/bash
+colord:x:487:488:user for colord:/var/lib/colord:/sbin/nologin
+daemon:x:2:2:Daemon:/sbin:/bin/bash
+messagebus:x:497:495:User for D-Bus:/run/dbus:/bin/false
+news:x:9:13:News system:/etc/news:/bin/bash
+nobody:x:65534:65533:nobody:/var/lib/nobody:/bin/bash
+nscd:x:494:493:User for nscd:/var/run/nscd:/sbin/nologin
+ntp:x:74:498:NTP daemon:/var/lib/ntp:/bin/false
+polkitd:x:489:490:User for polkitd:/var/lib/polkit:/sbin/nologin
+postfix:x:51:51:Postfix Daemon:/var/spool/postfix:/bin/false
+pulse:x:486:487:PulseAudio daemon:/var/lib/pulseaudio:/sbin/nologin
+root:x:0:0:root:/root:/bin/bash
+rtkit:x:488:489:RealtimeKit:/proc:/bin/false
+scard:x:484:484:Smart Card Reader:/var/run/pcscd:/usr/sbin/nologin
+svn:x:483:482:user for Apache Subversion svnserve:/srv/svn:/sbin/nologin
+tftp:x:493:492:TFTP account:/srv/tftpboot:/bin/false
+usbmux:x:496:65534:usbmuxd daemon:/var/lib/usbmuxd:/sbin/nologin
+uucp:x:10:14:Unix-to-Unix CoPy system:/etc/uucp:/bin/bash
+vscan:x:65:483:Vscan account:/var/spool/amavis:/bin/false
+wwwrun:x:30:8:WWW daemon apache:/var/lib/wwwrun:/bin/false
+clamav:x:1693:1001:Clam AntiVirus:/home/inst/clamav:/bin/false
+djones:x:1012:1000:INSTURCTOR Doug Jones 312 300 100:/home/inst/djones:/bin/bash
+dmandel:x:1023:1000:INSTRUCTOR Expired:/home/inst/dmandel:/bin/bash
+dona.hertel:x:2423:1000:INSTRUCTOR Dona Hertel:/home/inst/dona.hertel:/bin/bash
+nicholas.insalata:x:2398:1000:INSTRUCTOR Nicholas Insalata:/home/inst/nicholas.insalata/:/bin/bash
+mark.garvey:x:4038:1003:TUTOR:/home/student/mark.garvey:/bin/bash
+rachel.benes:x:4887:1003:TUTOR:/home/student/rachel.benes:/bin/bash
+david.schooler:x:5054:1000:INSTRUCTOR David Schooler:/home/inst/david.schooler:/bin/bash
+shawli.sengupta:x:5402:1000:INSTRUCTOR Shawli Sengupta:/home/inst/shawli.sengupta:/bin/bash
+
+zhimin.xi:x:6423:1003:TUTOR:/home/student/zhimin.xi:/bin/bash
+leyonb:x:6572:100:PCC IT:/home/leyonb:/bin/bash
+neha.agarwal:x:6573:1000:INSTRUCTOR:/home/inst/neha.agarwal:/bin/bash
+bms:x:6574:1000:INSTRUCTOR Ben Schaeffer:/home/inst/bms:/bin/bash
+benjamin.schaeffer15:x:6575:1003:INSTRUCTOR Ben Schaeffer:/home/student/benjamin.schaeffer15:/bin/bash
+ulices.cardenas:x:8869:1003:TUTOR:/home/student/ulices.cardenas:/bin/bash
+aaron.brock1@syccuxas01:~> sort -t ':' passwd,txt
+sort: cannot read: passwd,txt: No such file or directory
+aaron.brock1@syccuxas01:~> sort -t ':' passwd,txt[1Ptxt.txt
+
+abdikarim.ali:x:6394:1003:STUDENT Expired 2019-07-08:/home/student/abdikarim.ali:/bin/bash
+abdi.sherif15:x:6323:1003:STUDENT Expired 2019-07-08:/home/student/abdi.sherif15:/bin/bash
+aditya.kothari:x:5237:1003:STUDENT Expired 2019-07-08:/home/student/aditya.kothari:/bin/bash
+aj.mallison:x:2532:1003:STUDENT Expired 2019-07-08:/home/student/aj.mallison:/bin/bash
+alain.missumbi:x:5418:1003:STUDENT Expired 2019-07-08:/home/student/alain.missumbi:/bin/bash
+alec.runyan:x:5683:1003:STUDENT Expired 2019-07-08:/home/student/alec.runyan:/bin/bash
+alex.kim5:x:6108:1003:STUDENT Expired 2019-07-08:/home/student/alex.kim5:/bin/bash
+alex.ly:x:7328:1003:STUDENT Expired 2019-07-08:/home/student/alex.ly:/bin/bash
+alex.saber:x:7343:1003:STUDENT Expired 2019-07-08:/home/student/alex.saber:/bin/bash
+alona.shevchenko:x:7554:1003:STUDENT Expired 2019-07-08:/home/student/alona.shevchenko:/bin/bash
+amanda.nelson8:x:7555:1003:STUDENT Expired 2019-07-08:/home/student/amanda.nelson8:/bin/bash
+amber.zancolli:x:6311:1003:STUDENT Expired 2019-07-08:/home/student/amber.zancolli:/bin/bash
+amiel.iliesi:x:6371:1003:STUDENT Expired 2019-07-08:/home/student/amiel.iliesi:/bin/bash
+anden.leesley:x:7556:1003:STUDENT Expired 2019-07-08:/home/student/anden.leesley:/bin/bash
+anders.alstrup:x:6359:1003:STUDENT Expired 2019-07-08:/home/student/anders.alstrup:/bin/bash
+andrew.chrystal:x:5404:1003:STUDENT Expired 2019-07-08:/home/student/andrew.chrystal:/bin/bash
+andrew.mccormick1:x:7259:1003:STUDENT Expired 2019-07-08:/home/student/andrew.mccormick1:/bin/bash
+andrew.quach:x:7557:1003:STUDENT Expired 2019-07-08:/home/student/andrew.quach:/bin/bash
+andy.franck:x:8870:1003:STUDENT Expired 2019-07-08:/home/student/andy.franck:/bin/bash
+andy.truong1:x:6270:1003:STUDENT Expired 2019-07-08:/home/student/andy.truong1:/bin/bash
+anh.ho1:x:6369:1003:STUDENT Expired 2019-07-08:/home/student/anh.ho1:/bin/bash
+antony.jozic:x:7559:1003:STUDENT Expired 2019-07-08:/home/student/antony.jozic:/bin/bash
+ariel.jones1:x:7560:1003:STUDENT Expired 2019-07-08:/home/student/ariel.jones1:/bin/bash
+armant.toucheiii:x:7209:1003:STUDENT Expired 2019-07-08:/home/student/armant.toucheiii:/bin/bash
+ashley.osburn:x:6084:1003:STUDENT Expired 2019-07-08:/home/student/ashley.osburn:/bin/bash
+ashley.steele:x:6355:1003:STUDENT Expired 2019-07-08:/home/student/ashley.steele:/bin/bash
+astrid.cuydedeleon:x:6222:1003:STUDENT Expired 2019-07-08:/home/student/astrid.cuydedeleon:/bin/bash
+at:x:25:25:Batch jobs daemon:/var/spool/atjobs:/bin/bash
+avahi-autoipd:x:499:499:User for Avahi IPv4LL:/var/lib/avahi-autoipd:/bin/false
+avahi:x:491:491:User for Avahi:/var/run/avahi-daemon:/bin/false
+bailey.swieck:x:4025:1003:STUDENT Expired 2019-07-08:/home/student/bailey.swieck:/bin/bash
+ban.naama:x:7377:1003:STUDENT Expired 2019-07-08:/home/student/ban.naama:/bin/bash
+benjamin.schaeffer15:x:6575:1003:INSTRUCTOR Ben Schaeffer:/home/student/benjamin.schaeffer15:/bin/bash
+ben.kono:x:8871:1003:STUDENT Expired 2019-07-08:/home/student/ben.kono:/bin/bash
+bhatiya.rajapakshamohot:x:8858:1003:STUDENT Expired 2019-07-08:/home/student/bhatiya.rajapakshamohot:/bin/bash
+bin:x:1:1:bin:/bin:/bin/bash
+bms:x:6574:1000:INSTRUCTOR Ben Schaeffer:/home/inst/bms:/bin/bash
+braden.lee:x:3769:1003:STUDENT IN 31337:/home/student/braden.lee:/bin/bash
+brandon.drinkwater:x:6298:1003:STUDENT Expired 2019-07-08:/home/student/brandon.drinkwater:/bin/bash
+brent.jacobsen15:x:4504:1003:STUDENT Expired 2019-07-08:/home/student/brent.jacobsen15:/bin/bash
+breyonna.mingledoff:x:4737:1003:STUDENT Expired 2019-07-08:/home/student/breyonna.mingledoff:/bin/bash
+brian.benson:x:7344:1003:STUDENT Expired 2019-07-08:/home/student/brian.benson:/bin/bash
+brian.powell4:x:6313:1003:STUDENT Expired 2019-07-08:/home/student/brian.powell4:/bin/bash
+brian.ward3:x:7211:1003:STUDENT Expired 2019-07-08:/home/student/brian.ward3:/bin/bash
+caleb.mathisen:x:3775:1003:STUDENT Expired 2019-07-08:/home/student/caleb.mathisen:/bin/bash
+cam.guillory:x:4101:1003:STUDENT Expired 2019-07-08:/home/student/cam.guillory:/bin/bash
+carrie.nielson:x:7372:1003:STUDENT Expired 2019-07-08:/home/student/carrie.nielson:/bin/bash
+chad.wend:x:7229:1003:STUDENT Expired 2019-07-08:/home/student/chad.wend:/bin/bash
+chandler.campbell:x:5419:1003:STUDENT Expired 2019-07-08:/home/student/chandler.campbell:/bin/bash
+charlene.namuyige:x:7339:1003:STUDENT Expired 2019-07-08:/home/student/charlene.namuyige:/bin/bash
+chelsea.holt:x:7230:1003:STUDENT Expired 2019-07-08:/home/student/chelsea.holt:/bin/bash
+christopher.partridge:x:4952:1003:STUDENT Expired 2019-07-08:/home/student/christopher.partridge:/bin/bash
+chunxiao.zheng:x:6368:1003:STUDENT Expired 2019-07-08:/home/student/chunxiao.zheng:/bin/bash
+clamav:x:1693:1001:Clam AntiVirus:/home/inst/clamav:/bin/false
+colord:x:487:488:user for colord:/var/lib/colord:/sbin/nologin
+corey.cassell:x:4754:1003:STUDENT Expired 2019-07-08:/home/student/corey.cassell:/bin/bash
+courtney.bae:x:7245:1003:STUDENT Expired 2019-07-08:/home/student/courtney.bae:/bin/bash
+curtis.byrne:x:7260:1003:STUDENT Expired 2019-07-08:/home/student/curtis.byrne:/bin/bash
+daemon:x:2:2:Daemon:/sbin:/bin/bash
+dakota.dobbs:x:6339:1003:STUDENT Expired 2019-07-08:/home/student/dakota.dobbs:/bin/bash
+damon.sawyer:x:7208:1003:STUDENT Expired 2019-07-08:/home/student/damon.sawyer:/bin/bash
+daniel.brewer1:x:6354:1003:STUDENT Expired 2019-07-08:/home/student/daniel.brewer1:/bin/bash
+daniel.pies:x:6319:1003:STUDENT Expired 2019-07-08:/home/student/daniel.pies:/bin/bash
+danmar.green:x:6286:1003:STUDENT Expired 2019-07-08:/home/student/danmar.green:/bin/bash
+david.murray6:x:5255:1003:STUDENT Expired 2019-07-08:/home/student/david.murray6:/bin/bash
+david.schooler:x:5054:1000:INSTRUCTOR David Schooler:/home/inst/david.schooler:/bin/bash
+deryk.patraw:x:6414:1003:STUDENT Expired 2019-07-08:/home/student/deryk.patraw:/bin/bash
+devin.hill:x:6343:1003:STUDENT Expired 2019-07-08:/home/student/devin.hill:/bin/bash
+dinh.nguyen6:x:4476:1003:STUDENT Expired 2019-07-08:/home/student/dinh.nguyen6:/bin/bash
+dion.satcher:x:4031:1003:STUDENT Expired 2019-07-08:/home/student/dion.satcher:/bin/bash
+djones:x:1012:1000:INSTURCTOR Doug Jones 312 300 100:/home/inst/djones:/bin/bash
+dmandel:x:1023:1000:INSTRUCTOR Expired:/home/inst/dmandel:/bin/bash
+dona.hertel:x:2423:1000:INSTRUCTOR Dona Hertel:/home/inst/dona.hertel:/bin/bash
+drew.fergusson:x:7345:1003:STUDENT Expired 2019-07-08:/home/student/drew.fergusson:/bin/bash
+dustin.deshane:x:7338:1003:STUDENT Expired 2019-07-08:/home/student/dustin.deshane:/bin/bash
+dustin.johnson4:x:6366:1003:STUDENT Expired 2019-07-08:/home/student/dustin.johnson4:/bin/bash
+dylan.holmes:x:2568:1003:STUDENT Expired 2019-07-08:/home/student/dylan.holmes:/bin/bash
+edward.liem:x:6109:1003:STUDENT Expired 2019-07-08:/home/student/edward.liem:/bin/bash
+elijah.penn:x:8872:1003:STUDENT Expired 2019-07-08:/home/student/elijah.penn:/bin/bash
+erika.wright2:x:7597:1003:STUDENT Expired 2019-07-08:/home/student/erika.wright2:/bin/bash
+ernesto.garay:x:6331:1003:STUDENT Expired 2019-07-08:/home/student/ernesto.garay:/bin/bash
+ethan.samuelsellingson:x:7598:1003:STUDENT Expired 2019-07-08:/home/student/ethan.samuelsellingson:/bin/bash
+euikyu.kim:x:7599:1003:STUDENT Expired 2019-07-08:/home/student/euikyu.kim:/bin/bash
+fatai.ahmed:x:4778:1003:STUDENT Expired 2019-07-08:/home/student/fatai.ahmed:/bin/bash
+felicia.lan:x:7600:1003:STUDENT Expired 2019-07-08:/home/student/felicia.lan:/bin/bash
+felix.mahon:x:7601:1003:STUDENT Expired 2019-07-08:/home/student/felix.mahon:/bin/bash
+forest.hoover:x:5095:1003:STUDENT Expired 2019-07-08:/home/student/forest.hoover:/bin/bash
+forrest.millard:x:6390:1003:STUDENT Expired 2019-07-08:/home/student/forrest.millard:/bin/bash
+gabriel.alvarez:x:7602:1003:STUDENT Expired 2019-07-08:/home/student/gabriel.alvarez:/bin/bash
+geoffrey.ballard:x:7363:1003:STUDENT Expired 2019-07-08:/home/student/geoffrey.ballard:/bin/bash
+giannina.combina:x:8873:1003:STUDENT Expired 2019-07-08:/home/student/giannina.combina:/bin/bash
+gregory.bell15:x:7606:1003:STUDENT Expired 2019-07-08:/home/student/gregory.bell15:/bin/bash
+gregory.vaughn15:x:7607:1003:STUDENT Expired 2019-07-08:/home/student/gregory.vaughn15:/bin/bash
+haley.woehrle:x:7335:1003:STUDENT Expired 2019-07-08:/home/student/haley.woehrle:/bin/bash
+ha.ly:x:4475:1003:STUDENT Expired 2019-07-08:/home/student/ha.ly:/bin/bash
+harry.herzberg:x:7608:1003:STUDENT Expired 2019-07-08:/home/student/harry.herzberg:/bin/bash
+isaac.santos1:x:6352:1003:STUDENT Expired 2019-07-08:/home/student/isaac.santos1:/bin/bash
+isak.rask:x:8874:1003:STUDENT Expired 2019-07-08:/home/student/isak.rask:/bin/bash
+james.brady5:x:6418:1003:STUDENT Expired 2019-07-08:/home/student/james.brady5:/bin/bash
+james.mclean4:x:7613:1003:STUDENT Expired 2019-07-08:/home/student/james.mclean4:/bin/bash
+jason.sun:x:6325:1003:STUDENT Expired 2019-07-08:/home/student/jason.sun:/bin/bash
+jatavien.barnard:x:6388:1003:STUDENT Expired 2019-07-08:/home/student/jatavien.barnard:/bin/bash
+jenna.cao:x:6341:1003:STUDENT Expired 2019-07-08:/home/student/jenna.cao:/bin/bash
+joanna.alberti:x:6113:1003:STUDENT Expired 2019-07-08:/home/student/joanna.alberti:/bin/bash
+john.widell:x:6227:1003:STUDENT Expired 2019-07-08:/home/student/john.widell:/bin/bash
+jonathan.burla:x:7207:1003:STUDENT Expired 2019-07-08:/home/student/jonathan.burla:/bin/bash
+jonathan.vazquez:x:5267:1003:STUDENT Expired 2019-07-08:/home/student/jonathan.vazquez:/bin/bash
+joonbum.kang:x:4114:1003:STUDENT Expired 2019-07-08:/home/student/joonbum.kang:/bin/bash
+joshua.carlson:x:7353:1003:STUDENT Expired 2019-07-08:/home/student/joshua.carlson:/bin/bash
+joshua.gorski:x:5397:1003:STUDENT IN 31591:/home/student/joshua.gorski:/bin/bash
+justin.hiester:x:7631:1003:STUDENT Expired 2019-07-08:/home/student/justin.hiester:/bin/bash
+karla.mendez:x:5400:1003:STUDENT Expired 2019-07-08:/home/student/karla.mendez:/bin/bash
+kathryn.lafrance:x:5073:1003:STUDENT Expired 2019-07-08:/home/student/kathryn.lafrance:/bin/bash
+keith.mcginnis:x:7239:1003:STUDENT Expired 2019-07-08:/home/student/keith.mcginnis:/bin/bash
+kevin.jones12:x:5685:1003:STUDENT Expired 2019-07-08:/home/student/kevin.jones12:/bin/bash
+kevin.tu:x:6293:1003:STUDENT Expired 2019-07-08:/home/student/kevin.tu:/bin/bash
+kexin.liu:x:7633:1003:STUDENT Expired 2019-07-08:/home/student/kexin.liu:/bin/bash
+kodi.lopez:x:7634:1003:STUDENT Expired 2019-07-08:/home/student/kodi.lopez:/bin/bash
+kristi.hornbuckle:x:7635:1003:STUDENT Expired 2019-07-08:/home/student/kristi.hornbuckle:/bin/bash
+kristin.bartholomew15:x:5061:1003:STUDENT Expired 2019-07-08:/home/student/kristin.bartholomew15:/bin/bash
+kyler.diefenbaugh:x:6391:1003:STUDENT Expired 2019-07-08:/home/student/kyler.diefenbaugh:/bin/bash
+kyle.zalewski:x:6330:1003:STUDENT Expired 2019-07-08:/home/student/kyle.zalewski:/bin/bash
+lane.barton:x:5052:1003:STUDENT Expired 2019-07-08:/home/student/lane.barton:/bin/bash
+levi.poling:x:6107:1003:STUDENT Expired 2019-07-08:/home/student/levi.poling:/bin/bash
+leyonb:x:6572:100:PCC IT:/home/leyonb:/bin/bash
+lily.tsou:x:4747:1003:STUDENT Expired 2019-07-08:/home/student/lily.tsou:/bin/bash
+luis.labastida:x:6410:1003:STUDENT Expired 2019-07-08:/home/student/luis.labastida:/bin/bash
+mark.garvey:x:4038:1003:TUTOR:/home/student/mark.garvey:/bin/bash
+matthew.alexander1:x:7216:1003:STUDENT Expired 2019-07-08:/home/student/matthew.alexander1:/bin/bash
+matthew.cole3:x:5084:1003:STUDENT Expired 2019-07-08:/home/student/matthew.cole3:/bin/bash
+matthew.gass:x:6295:1003:STUDENT Expired 2019-07-08:/home/student/matthew.gass:/bin/bash
+matthew.norvell:x:6385:1003:STUDENT Expired 2019-07-08:/home/student/matthew.norvell:/bin/bash
+max.carlson:x:6422:1003:STUDENT Expired 2019-07-08:/home/student/max.carlson:/bin/bash
+max.ovitsky:x:6314:1003:STUDENT Expired 2019-07-08:/home/student/max.ovitsky:/bin/bash
+melissa.gharst:x:7373:1003:STUDENT Expired 2019-07-08:/home/student/melissa.gharst:/bin/bash
+messagebus:x:497:495:User for D-Bus:/run/dbus:/bin/false
+michael.austin:x:7243:1003:STUDENT Expired 2019-07-08:/home/student/michael.austin:/bin/bash
+mikayla.maki:x:7258:1003:STUDENT Expired 2019-07-08:/home/student/mikayla.maki:/bin/bash
+milan.mauck:x:4776:1003:STUDENT Expired 2019-07-08:/home/student/milan.mauck:/bin/bash
+minh.ma1:x:6318:1003:STUDENT Expired 2019-07-08:/home/student/minh.ma1:/bin/bash
+mitchell.stoneberg:x:6097:1003:STUDENT Expired 2019-07-08:/home/student/mitchell.stoneberg:/bin/bash
+neha.agarwal:x:6573:1000:INSTRUCTOR:/home/inst/neha.agarwal:/bin/bash
+news:x:9:13:News system:/etc/news:/bin/bash
+ngon.phan:x:3774:1003:STUDENT Expired 2019-07-08:/home/student/ngon.phan:/bin/bash
+nicholas.insalata:x:2398:1000:INSTRUCTOR Nicholas Insalata:/home/inst/nicholas.insalata/:/bin/bash
+nick.taylor1:x:6224:1003:STUDENT Expired 2019-07-08:/home/student/nick.taylor1:/bin/bash
+nic.welty:x:4883:1003:STUDENT Expired 2019-07-08:/home/student/nic.welty:/bin/bash
+nilesh.bahir:x:6412:1003:STUDENT Expired 2019-07-08:/home/student/nilesh.bahir:/bin/bash
+nisanath.kangwanchaivanich:x:6285:1003:STUDENT Expired 2019-07-08:/home/student/nisanath.kangwanchaivanich:/bin/bash
+nobody:x:65534:65533:nobody:/var/lib/nobody:/bin/bash
+nscd:x:494:493:User for nscd:/var/run/nscd:/sbin/nologin
+ntp:x:74:498:NTP daemon:/var/lib/ntp:/bin/false
+patrick.reyes:x:2502:1003:STUDENT Expired 2019-07-08:/home/student/patrick.reyes:/bin/bash
+phillip.schmeling:x:4958:1003:STUDENT Expired 2019-07-08:/home/student/phillip.schmeling:/bin/bash
+polkitd:x:489:490:User for polkitd:/var/lib/polkit:/sbin/nologin
+postfix:x:51:51:Postfix Daemon:/var/spool/postfix:/bin/false
+pulse:x:486:487:PulseAudio daemon:/var/lib/pulseaudio:/sbin/nologin
+rachel.benes:x:4887:1003:TUTOR:/home/student/rachel.benes:/bin/bash
+rachel.halvorson:x:6392:1003:STUDENT Expired 2019-07-08:/home/student/rachel.halvorson:/bin/bash
+randall.schiffler:x:6344:1003:STUDENT Expired 2019-07-08:/home/student/randall.schiffler:/bin/bash
+richard.clift:x:6320:1003:STUDENT Expired 2019-07-08:/home/student/richard.clift:/bin/bash
+richard.haavig:x:6268:1003:STUDENT Expired 2019-07-08:/home/student/richard.haavig:/bin/bash
+robby.yi:x:5228:1003:STUDENT Expired 2019-07-08:/home/student/robby.yi:/bin/bash
+rodolfo.briones15:x:7347:1003:STUDENT Expired 2019-07-08:/home/student/rodolfo.briones15:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+rtkit:x:488:489:RealtimeKit:/proc:/bin/false
+ryan.fillis:x:7270:1003:STUDENT Expired 2019-07-08:/home/student/ryan.fillis:/bin/bash
+ryan.koehler:x:7337:1003:STUDENT Expired 2019-07-08:/home/student/ryan.koehler:/bin/bash
+sameer.raviprakash:x:6346:1003:STUDENT Expired 2019-07-08:/home/student/sameer.raviprakash:/bin/bash
+scard:x:484:484:Smart Card Reader:/var/run/pcscd:/usr/sbin/nologin
+serena.seyler:x:6367:1003:STUDENT IN 30214:/home/student/serena.seyler:/bin/bash
+shane.poovaviranon:x:5074:1003:STUDENT Expired 2019-07-08:/home/student/shane.poovaviranon:/bin/bash
+shannon.obrien2:x:4752:1003:STUDENT Expired 2019-07-08:/home/student/shannon.obrien2:/bin/bash
+shawli.sengupta:x:5402:1000:INSTRUCTOR Shawli Sengupta:/home/inst/shawli.sengupta:/bin/bash
+skye.laidler:x:7240:1003:STUDENT Expired 2019-07-08:/home/student/skye.laidler:/bin/bash
+skyler.vertner:x:7370:1003:STUDENT Expired 2019-07-08:/home/student/skyler.vertner:/bin/bash
+spence.johnston1:x:7241:1003:STUDENT IN 31577:/home/student/spence.johnston1:/bin/bash
+staci.harding:x:6396:1003:STUDENT Expired 2019-07-08:/home/student/staci.harding:/bin/bash
+svn:x:483:482:user for Apache Subversion svnserve:/srv/svn:/sbin/nologin
+taylor.brown:x:7255:1003:STUDENT IN 32906:/home/student/taylor.brown:/bin/bash
+tftp:x:493:492:TFTP account:/srv/tftpboot:/bin/false
+thomas.abel:x:7342:1003:STUDENT IN 31577:/home/student/thomas.abel:/bin/bash
+timothy.maloney:x:7336:1003:STUDENT Expired 2019-07-08:/home/student/timothy.maloney:/bin/bash
+tristen.bezayiff:x:6333:1003:STUDENT Expired 2019-07-08:/home/student/tristen.bezayiff:/bin/bash
+tyler.keske:x:7242:1003:STUDENT Expired 2019-07-08:/home/student/tyler.keske:/bin/bash
+ulices.cardenas:x:8869:1003:TUTOR:/home/student/ulices.cardenas:/bin/bash
+usbmux:x:496:65534:usbmuxd daemon:/var/lib/usbmuxd:/sbin/nologin
+uucp:x:10:14:Unix-to-Unix CoPy system:/etc/uucp:/bin/bash
+veronica.richardson:x:7234:1003:STUDENT Expired 2019-07-08:/home/student/veronica.richardson:/bin/bash
+victor.albarran:x:5068:1003:STUDENT Expired 2019-07-08:/home/student/victor.albarran:/bin/bash
+vscan:x:65:483:Vscan account:/var/spool/amavis:/bin/false
+william.mahoney:x:4052:1003:STUDENT Expired 2019-07-08:/home/student/william.mahoney:/bin/bash
+wwwrun:x:30:8:WWW daemon apache:/var/lib/wwwrun:/bin/false
+xander.niehaus:x:8857:1003:STUDENT Expired 2019-07-08:/home/student/xander.niehaus:/bin/bash
+xuan.vu2:x:7266:1003:STUDENT Expired 2019-07-08:/home/student/xuan.vu2:/bin/bash
+yichao.sun:x:6093:1003:STUDENT IN 31577 31337:/home/student/yichao.sun:/bin/bash
+zach.elliott:x:6228:1003:STUDENT IN 30124:/home/student/zach.elliott:/bin/bash
+zack.barrer:x:4955:1003:STUDENT Expired 2019-07-08:/home/student/zack.barrer:/bin/bash
+zhimin.xi:x:6423:1003:TUTOR:/home/student/zhimin.xi:/bin/bash
+aaron.brock1@syccuxas01:~> date +%u+%Y
+3+2019
+aaron.brock1@syccuxas01:~> who -q
+gabriel.debenedictis (unknown) nozomu.ando lliang aaron.brock1 jaquelin.yang boyan.georgiev ryan.miller43 karan.bajpai navid.westergerling dean.wilson zac.eckelman yongwen.lampert matthew.nissen15 djones jeremy.bernardino forrest.craver shatabdi.pal francis.redfern aaron.brock1
+# users=20
+aaron.brock1@syccuxas01:~> who '[K-q | grep -[K'[Ktail
+aaron.brock1@syccuxas01:~> ls
+[0m[00;31marchive.tar[0m  [00mlimerick.txt[0m  [00mpasswd.txt[0m   [00mtest1.txt[0m  [00mtypescript[0m
+[01;34mbin[0m          [00mmbox[0m          [01;34mpublic_html[0m  [00mtest2.txt[0m  [00mutilities_assign.txt[0m
+aaron.brock1@syccuxas01:~> lswho -q | grep tail -1
+aaron.brock1@syccuxas01:~> who -q | grep tail -1[1P[1P[1P[1P[1P
+# users=23
+aaron.brock1@syccuxas01:~> yay!
+If 'yay!' is not a typo you can use command-not-found to lookup the package that contains it, like this:
+    cnf yay!
+aaron.brock1@syccuxas01:~> exit
+exit
+
+Script done on Wed 02 Oct 2019 08:05:59 AM PDT
